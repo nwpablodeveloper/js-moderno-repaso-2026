@@ -14,8 +14,12 @@
 - V008 - JavaScript y su historia
 - V009 - Usos de JavaScript en el mundo real
 - V010 - Hola Mundo
-```js
-    // Document hace referencia al documento HTML, write para escribir
-    document.write();
-```
-
+    ```js
+        // Document hace referencia al documento HTML, write para escribir
+        document.write();
+    ```
+- V011 - Introducción a variables y comentarios
+    ```
+       Una variable es un contendor de información que apunta un lugar en memoria.
+       Dicha información puede cambiar en un futuro
+    ```
