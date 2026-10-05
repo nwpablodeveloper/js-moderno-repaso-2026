@@ -33,3 +33,6 @@
   - Crear una propiedad
   - Bloquear la modificación de datos del objeto
   - [información sobre los objetos en JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object)
+- V027 - Funciones básicas y de flecha
+  - Como enviar y leer varios argumentos
+  - palabra reservada "arguments"
