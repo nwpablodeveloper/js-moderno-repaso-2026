@@ -23,3 +23,10 @@
        Una variable es un contendor de información que apunta un lugar en memoria.
        Dicha información puede cambiar en un futuro
     ```
+- V012 - Introducción a la consola
+    ```js
+        // Imprimir variables con estilo en la consola
+        console.table([]); // Ponemos todo lo que queremos imprimir en consola
+        console.table({});
+    ```
+   
