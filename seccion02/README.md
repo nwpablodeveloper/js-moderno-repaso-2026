@@ -47,4 +47,12 @@
        var outerWidht = 6003; 
        
     ```
+- V016 - Prompt, confirm y alert
+    ```
+        Prompt, confirm y alert
+        Son metodos que vienen dentro del entorno "window"
+
+        window // el objeto "window" en la consola del navegador trea información del entorno
+        global // objeto "global" desde la powershel y va a traer información del entorno de "node"
+    ```
    
