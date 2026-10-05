@@ -22,3 +22,5 @@
 - V022 - Palabras reservadas y nombres de variables
   - Son palabras que tienen un uso en específico y se tiene que usar para lo que fueron creadas
     - [palabras](recursos/palabras-reservadas.pdf)
+- V023 - Arreglos
+  - Los arreglos contienen un grupo de elementos. Javascript permite elementos de diferentes tipo de datos
