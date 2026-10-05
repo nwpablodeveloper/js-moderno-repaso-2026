@@ -29,4 +29,9 @@
         console.table([]); // Ponemos todo lo que queremos imprimir en consola
         console.table({});
     ```
+- V013 - Depuración y Brackpoints
+    ```
+        Desde las herramientas de desarrollo del navegador podemos utilizar Brackpoints
+        en la pestaña "Fuentes"
+    ```
    
