@@ -18,3 +18,4 @@
   - **Undefined** - La variable esta declarada pero aún no se le asigna un valor
   - **Number** - Integers, floats, etc
   - **String** - Son una cadena de caracteres, ej: Palabras, nombres, etc
+- V021 - Introducción general a los tipo de datos primitivos
