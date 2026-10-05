@@ -10,3 +10,4 @@
     - Depuración y breakpoints
     - Problemas con la declaración de variables con var
     - Prompts, alerts, confirms.
+- [Sección 03 - 02:02 hs - Fundamentos de JavaScript primitivos, arreglos, abjetos y funciones](seccion02)
