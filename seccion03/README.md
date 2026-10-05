@@ -25,3 +25,5 @@
 - V023 - Arreglos
   - Los arreglos contienen un grupo de elementos. Javascript permite elementos de diferentes tipo de datos
 - V024 - Detalles sobre Arreglos
+- V025 - Objetos literales
+  - Los Objects son los tipos de datos que se diferencian de los primitivos
