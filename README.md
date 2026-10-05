@@ -11,3 +11,12 @@
     - Problemas con la declaración de variables con var
     - Prompts, alerts, confirms.
 - [Sección 03 - 02:02 hs - Fundamentos de JavaScript primitivos, arreglos, abjetos y funciones](seccion02)
+    - Qué son los primitivos?
+    - Palabras reservadas
+    - Arreglos
+    - Objetos literales
+    - Funciones básicas
+    - Funciones de flecha
+    - Retorno de las funciones
+    - Ejercicios y ejemplos con cada tipo expuesto
+        - Al final de la sección, tienen el código fuente por si lo llegan a necesitar, o bien para que     lo tengan como respaldo.
