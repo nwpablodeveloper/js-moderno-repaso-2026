@@ -24,3 +24,4 @@
     - [palabras](recursos/palabras-reservadas.pdf)
 - V023 - Arreglos
   - Los arreglos contienen un grupo de elementos. Javascript permite elementos de diferentes tipo de datos
+- V024 - Detalles sobre Arreglos
