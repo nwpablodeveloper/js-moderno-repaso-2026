@@ -27,3 +27,9 @@
 - V024 - Detalles sobre Arreglos
 - V025 - Objetos literales
   - Los Objects son los tipos de datos que se diferencian de los primitivos
+  - Como acceder a su informaciòn
+- V026 - Detalles sobre objetos literales
+  - Eliminar una propiedad
+  - Crear una propiedad
+  - Bloquear la modificación de datos del objeto
+  - [información sobre los objetos en JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object)
