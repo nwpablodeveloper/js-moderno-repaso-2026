@@ -35,4 +35,16 @@
         en la pestaña "Fuentes"
     ```
 - V014 - Orden y lugar de las importaciones
+- V015 - Principal problema de inicializar con VAR
+    ```js
+        /*
+            La declaración de varaiables con "var" , hace que las variables sean declaradas en todo el entorno windows de la app.
+        */
+
+       windows.outerWidht // desde la consola
+
+       // Puede ser interferida por 
+       var outerWidht = 6003; 
+       
+    ```
    
