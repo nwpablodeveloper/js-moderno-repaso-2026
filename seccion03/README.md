@@ -19,3 +19,6 @@
   - **Number** - Integers, floats, etc
   - **String** - Son una cadena de caracteres, ej: Palabras, nombres, etc
 - V021 - Introducción general a los tipo de datos primitivos
+- V022 - Palabras reservadas y nombres de variables
+  - Son palabras que tienen un uso en específico y se tiene que usar para lo que fueron creadas
+    - [palabras](recursos/palabras-reservadas.pdf)
