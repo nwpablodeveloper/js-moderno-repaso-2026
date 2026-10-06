@@ -36,3 +36,5 @@
 - V027 - Funciones básicas y de flecha
   - Como enviar y leer varios argumentos
   - palabra reservada "arguments"
+- V028 - Retorno de funciones
+  - Si la función no retorna ninguna valor es "undefined"
