@@ -38,3 +38,5 @@
   - palabra reservada "arguments"
 - V028 - Retorno de funciones
   - Si la función no retorna ninguna valor es "undefined"
+- V029 - Pro Tip: Funiciones, argumentos y destructuración de objetos
+  - Como leer todos los argumentos recibidos en una función de flecha
