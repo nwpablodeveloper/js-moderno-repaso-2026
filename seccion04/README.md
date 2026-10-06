@@ -17,3 +17,8 @@
     - For in
     - For of
   - Al final de la sección tenemos el código fuente por si lo llegan a necesitar.
+- V033 - Valor, referencia y romper la referencia
+  - Operador "spread" para romper la referencia del objeto
+    ```js
+      let persona3 = { ...persona1 };
+    ```
