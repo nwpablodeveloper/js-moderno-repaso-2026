@@ -21,3 +21,17 @@
     - Ejercicios y ejemplos con cada tipo expuesto
         - Al final de la sección, tienen el código fuente por si lo llegan a necesitar, o bien para que     lo tengan como respaldo.
 - [Sección 04 - 01:37 hs - Ciclos y estructuras de control](seccion04)
+  - Estructuras de control de flujo
+  - Paso de variables por valor y por referencia
+  - Romper referencia de objetos
+  - If y Else
+  - Un poco sobre lógica booleana
+  - Operadores y operadores de asignación
+  - Operador condicional ternario
+  - Diferentes usos del operador condicional ternario
+  - Switch
+  - While
+  - Do While
+    - For
+    - For in
+    - For of
