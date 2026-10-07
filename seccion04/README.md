@@ -22,3 +22,25 @@
     ```js
       let persona3 = { ...persona1 };
     ```
+- V034 - If y Else
+  - Operadores
+
+  | Operador | Nombre | Descripción | Ejemplo | Resultado |
+  |---|---|---|---|---|
+  | `&&` | AND lógico | Devuelve `true` si todas las condiciones son verdaderas | `true && true` | `true` |
+  | `||` | OR lógico | Devuelve `true` si alguna condición es verdadera | `true || false` | `true` |
+  | `!` | NOT lógico | Invierte el valor booleano | `!true` | `false` |
+  | `??` | Nullish Coalescing | Devuelve el valor de la derecha si el de la izquierda es `null` o `undefined` | `null ?? "Hola"` | `"Hola"` |
+
+  ## Operadores de comparación
+
+  | Operador | Nombre | Ejemplo | Resultado |
+  |---|---|---|---|
+  | `==` | Igualdad | `5 == "5"` | `true` |
+  | `===` | Igualdad estricta | `5 === "5"` | `false` |
+  | `!=` | Desigualdad | `5 != "5"` | `false` |
+  | `!==` | Desigualdad estricta | `5 !== "5"` | `true` |
+  | `>` | Mayor que | `10 > 5` | `true` |
+  | `<` | Menor que | `10 < 5` | `false` |
+  | `>=` | Mayor o igual | `10 >= 10` | `true` |
+  | `<=` | Menor o igual | `5 <= 10` | `true` |
