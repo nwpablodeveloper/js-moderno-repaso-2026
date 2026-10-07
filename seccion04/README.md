@@ -47,3 +47,4 @@
 - V035 - Laboratorio Alternativa al "if else"
   - Tarea, sin usar else if, ni swtitch, imprimir en la consola el dia de la semana usando un Objeto
 - V036 - Lógica Booleana
+- V037 - Pro Tip: Asignaciones con operadores
