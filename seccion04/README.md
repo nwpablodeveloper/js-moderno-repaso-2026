@@ -44,3 +44,5 @@
   | `<` | Menor que | `10 < 5` | `false` |
   | `>=` | Mayor o igual | `10 >= 10` | `true` |
   | `<=` | Menor o igual | `5 <= 10` | `true` |
+- V035 - Laboratorio Alternativa al "if else"
+  - Tarea, sin usar else if, ni swtitch, imprimir en la consola el dia de la semana usando un Objeto
