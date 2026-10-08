@@ -10,3 +10,4 @@
   - Realizar la lógica para implementar un competidor de cartas.
     - Esta sección es bien divertida (al menos eso espero), haremos un juego que nos enseñará muchas  cosas de JavaScript.
     - Tengan presente que el código que haremos en esta sección es potencialmente inseguro, (lo explico en la siguiente sección), por lo que puede ser modificado por usuarios y hacer trampa... pero eso es algo que cubriremos en la siguiente sección
+- V046 - Demostración de la sección - BlackJack
