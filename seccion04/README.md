@@ -57,3 +57,4 @@
   - Continuar con "Continue"
   - Do While
     - Siempre se ejectua el código al menos 1 vez
+- V042 - for in - for of
