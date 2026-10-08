@@ -58,3 +58,5 @@
   - Do While
     - Siempre se ejectua el código al menos 1 vez
 - V042 - for in - for of
+- V043 - Código fuente de la sección
+  - [código](https://github.com/Klerith/javascript-basics/releases/tag/v0.0.3)
