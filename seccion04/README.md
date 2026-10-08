@@ -52,3 +52,8 @@
 - V039 - Prop tip: Otros usos del operador ternario
   - Condición ternaria normao y anidada
 - V040 - Switch
+- V041 - While y Do While
+  - Romper con "Breack"
+  - Continuar con "Continue"
+  - Do While
+    - Siempre se ejectua el código al menos 1 vez

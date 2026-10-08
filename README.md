@@ -32,7 +32,7 @@
   - Diferentes usos del operador condicional ternario
   - Switch
   - While
-  - Do While
+  - Do While ( uso de Break y Continue )
     - For
     - For in
     - For of
