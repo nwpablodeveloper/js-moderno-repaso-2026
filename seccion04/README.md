@@ -51,3 +51,4 @@
 - V038 - Operador condicional ternario
 - V039 - Prop tip: Otros usos del operador ternario
   - Condición ternaria normao y anidada
+- V040 - Switch
