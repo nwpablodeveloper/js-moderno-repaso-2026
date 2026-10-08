@@ -16,6 +16,7 @@
     - Arreglos
     - Objetos literales
     - Funciones básicas
+    - Funciones autoinvocadas
     - Funciones de flecha
     - Retorno de las funciones
     - Ejercicios y ejemplos con cada tipo expuesto
