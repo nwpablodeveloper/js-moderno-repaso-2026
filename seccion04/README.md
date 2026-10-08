@@ -49,3 +49,5 @@
 - V036 - Lógica Booleana
 - V037 - Pro Tip: Asignaciones con operadores
 - V038 - Operador condicional ternario
+- V039 - Prop tip: Otros usos del operador ternario
+  - Condición ternaria normao y anidada
