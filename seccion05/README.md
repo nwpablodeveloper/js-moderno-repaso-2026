@@ -12,3 +12,16 @@
     - Tengan presente que el código que haremos en esta sección es potencialmente inseguro, (lo explico en la siguiente sección), por lo que puede ser modificado por usuarios y hacer trampa... pero eso es algo que cubriremos en la siguiente sección
 - V046 - Demostración de la sección - BlackJack
 - V047 - Inicio del proyecto BlackJack (el famoso juego del 21)
+- V048 - Nota de actualización
+  ```
+    Nota:
+      En la próxima clase usaremos Bootstrap para que nuestra aplicación se vea un poco mejor, por favor usen el material adjunto que les dejo en la siguiente clase para instalar el Bootstrap.
+
+      En pocas palabras, esto es lo que hay que añadir:
+
+      <title> Titulo de la página web</title>
+      
+      <!-- añadir esto -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      Pero usen el que se ve en la documentación, ya que hemos tenido muchas preguntas al respecto.
+  ```
