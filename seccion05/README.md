@@ -26,3 +26,6 @@
       Pero usen el que se ve en la documentación, ya que hemos tenido muchas preguntas al respecto.
   ```
 - V059 - Estilo y estructura de nuestro juego
+- V060 - Crear baraja de cartas
+  - [Libreria para mezclar arreglos](https://underscorejs.org/)
+  - Usamos la función _.shuffle(Array) (barajar/Mezclar)
