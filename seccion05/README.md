@@ -27,5 +27,6 @@
   ```
 - V059 - Estilo y estructura de nuestro juego
 - V060 - Crear baraja de cartas
-  - [Libreria para mezclar arreglos](https://underscorejs.org/)
+  - [Libreria "Underscore" para mezclar arreglos](https://underscorejs.org/)
   - Usamos la función _.shuffle(Array) (barajar/Mezclar)
+- V061 - Pedir carta

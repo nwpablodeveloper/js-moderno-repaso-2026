@@ -39,6 +39,7 @@
 - [Sección 05 - 02:02 hs - Laboratorio 1 - BlackJack](seccion05)
   - Juego de cartas BLACKJACK (el 21)
   - Trabajar con arreglos
+    - Libreria UNDERSCORE para trabajar con Arrays
   - Mezclar los valores de los arreglos
   - Introducción a la manipulación del DOM
   - Eventos

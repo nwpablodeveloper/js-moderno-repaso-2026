@@ -10,6 +10,8 @@ let deck = [];
 const tipos = ['C','D','H','S'];
 const especiales = ['A','J','Q','K'];
 
+
+// Esta función crea una nueva baraja  (Mezcla el maso)
 const crearDeck = () => {
 
     for (let i = 2; i <= 10; i++){
@@ -31,5 +33,24 @@ const crearDeck = () => {
     return deck;
 }
 
-
+// Esta función crea una nueva baraja (Mezcla el maso)
 crearDeck();
+
+
+// Función permite tomar 1 carta
+const pedirCarta = () => {
+
+    if( deck.length === 0) {
+        throw 'No hay cartas en el deck'
+    };
+
+    const carta = deck.pop();
+    console.log(deck);
+    return deck;
+}
+
+// Probar el pedido de cartas hastá quedarme sin cartas
+for (let i = 0; i < 100; i++) {
+    pedirCarta();
+    
+}
