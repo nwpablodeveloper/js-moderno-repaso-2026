@@ -45,12 +45,27 @@ const pedirCarta = () => {
     };
 
     const carta = deck.pop();
-    console.log(deck);
-    return deck;
+    console.log(carta);
+    return carta;
 }
 
-// Probar el pedido de cartas hastá quedarme sin cartas
-for (let i = 0; i < 100; i++) {
-    pedirCarta();
-    
-}
+// Sumar los valores de las cartas pedidas
+let puntos = 0;
+const valorCarta = ( carta ) => {
+
+    // Cortar el string de la posición 0 hasta carta.lenght - 1
+    const valor = carta.substring(0, carta.length - 1); 
+    return  ( isNaN(valor) ) ? 
+            ( valor === 'A') ? 11 : 10
+            : 1 * valor;
+
+    // if( isNaN (valor)){
+    //     puntos += ( valor === 'A') ? 11 : 10;
+
+    // } else {
+    //     puntos += parseInt(valor);
+    // }
+};
+
+// valorCarta( pedirCarta() );
+console.log( valorCarta( pedirCarta()) );

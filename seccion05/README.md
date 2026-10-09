@@ -30,3 +30,4 @@
   - [Libreria "Underscore" para mezclar arreglos](https://underscorejs.org/)
   - Usamos la función _.shuffle(Array) (barajar/Mezclar)
 - V061 - Pedir carta
+- V062 - Valor de cada carta
