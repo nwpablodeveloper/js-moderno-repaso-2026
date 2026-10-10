@@ -31,3 +31,23 @@
   - Usamos la función _.shuffle(Array) (barajar/Mezclar)
 - V061 - Pedir carta
 - V062 - Valor de cada carta
+- V063 - Introducción al DOM y su manipulación
+  - DOCUMENT OBJECT MODEL
+  ```js 
+    document.querySelector('.titulo').innerHTML = "<b>hola</b>"
+    document.querySelectorAll('.titulo').innerHTML = "<b>Todos los elementos de la clase</b>"
+
+    const titulo = document.querySelector('.titulo');
+    titulo.innerHTML = 'Cambiar texto';
+  ``` 
+- V064 - Manipulación del DOM, segunda parte
+  - Creación de elemtnos en el DOM
+  ``` js
+    const divBotoenes = document.querySelector('.divBotones');
+    const botonNuevo = document.createElement('button');
+    divBotones.append(botonNuevo);
+    botonNuevo.innerHTML = 'Destruir toodo';
+    botonuevo.classList.add('btn-solid');
+    botonuevo.classList.add('theme-danger');
+  ``` 
+   

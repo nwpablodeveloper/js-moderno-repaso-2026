@@ -42,5 +42,17 @@
     - Libreria UNDERSCORE para trabajar con Arrays
   - Mezclar los valores de los arreglos
   - Introducción a la manipulación del DOM
+    - DOCUMENT OBJECT MODEL
+    - Manipulación y creación de elementos
+    ```
+        En la consoal
+        document.querySelector('body') 
+        o tambien
+        document.body
+    ``` 
+    ``` 
+        me un arreglo de todas las etiquetas img
+        document.querySelectorAll('img')
+    ``` 
   - Eventos
   - Crear imágenes en la página
