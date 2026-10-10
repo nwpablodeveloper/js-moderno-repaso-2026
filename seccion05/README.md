@@ -50,4 +50,5 @@
     botonuevo.classList.add('btn-solid');
     botonuevo.classList.add('theme-danger');
   ``` 
+- V065 - Evento click, pedir una carta
    

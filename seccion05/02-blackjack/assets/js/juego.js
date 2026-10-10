@@ -10,6 +10,8 @@ let deck = [];
 const tipos = ['C','D','H','S'];
 const especiales = ['A','J','Q','K'];
 
+// Referencias del DOM
+const btnPedir = document.querySelector('#btnPedir');
 
 // Esta función crea una nueva baraja  (Mezcla el maso)
 const crearDeck = () => {
@@ -45,7 +47,7 @@ const pedirCarta = () => {
     };
 
     const carta = deck.pop();
-    console.log(carta);
+    // console.log(carta);
     return carta;
 }
 
@@ -67,5 +69,22 @@ const valorCarta = ( carta ) => {
     // }
 };
 
-// valorCarta( pedirCarta() );
-console.log( valorCarta( pedirCarta()) );
+
+// Eventos
+
+// Cuando hago click en el evento escuchar se dispara el callback
+let puntosJugador = 0;
+let puntosComputadora = 0;
+
+const puntosHTML = document.querySelectorAll('small');
+const divJugadorCartas = document.querySelector('#jugador-cartas');
+
+btnPedir.addEventListener('click',  () => {
+
+    const carta = pedirCarta();
+    puntosJugador += valorCarta(carta);
+
+    puntosHTML[0].innerText = puntosJugador;
+    
+
+});
