@@ -25,13 +25,13 @@
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
       Pero usen el que se ve en la documentación, ya que hemos tenido muchas preguntas al respecto.
   ```
-- V059 - Estilo y estructura de nuestro juego
-- V060 - Crear baraja de cartas
+- V049 - Estilo y estructura de nuestro juego
+- V050 - Crear baraja de cartas
   - [Libreria "Underscore" para mezclar arreglos](https://underscorejs.org/)
   - Usamos la función _.shuffle(Array) (barajar/Mezclar)
-- V061 - Pedir carta
-- V062 - Valor de cada carta
-- V063 - Introducción al DOM y su manipulación
+- V051 - Pedir carta
+- V052 - Valor de cada carta
+- V053 - Introducción al DOM y su manipulación
   - DOCUMENT OBJECT MODEL
   ```js 
     document.querySelector('.titulo').innerHTML = "<b>hola</b>"
@@ -40,7 +40,7 @@
     const titulo = document.querySelector('.titulo');
     titulo.innerHTML = 'Cambiar texto';
   ``` 
-- V064 - Manipulación del DOM, segunda parte
+- V054 - Manipulación del DOM, segunda parte
   - Creación de elemtnos en el DOM
   ``` js
     const divBotoenes = document.querySelector('.divBotones');
@@ -50,5 +50,4 @@
     botonuevo.classList.add('btn-solid');
     botonuevo.classList.add('theme-danger');
   ``` 
-- V065 - Evento click, pedir una carta
-   
+- V055 - Evento click, pedir una carta 
