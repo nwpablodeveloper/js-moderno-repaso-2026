@@ -10,8 +10,6 @@ let deck = [];
 const tipos = ['C','D','H','S'];
 const especiales = ['A','J','Q','K'];
 
-// Referencias del DOM
-const btnPedir = document.querySelector('#btnPedir');
 
 // Esta función crea una nueva baraja  (Mezcla el maso)
 const crearDeck = () => {
@@ -72,19 +70,35 @@ const valorCarta = ( carta ) => {
 
 // Eventos
 
-// Cuando hago click en el evento escuchar se dispara el callback
+
+// Referencias del DOM
+const puntosHTML = document.querySelectorAll('small');
+const divCartasJugador = document.querySelector('#jugador-cartas');
+
 let puntosJugador = 0;
 let puntosComputadora = 0;
 
-const puntosHTML = document.querySelectorAll('small');
-const divJugadorCartas = document.querySelector('#jugador-cartas');
-
+// Referencias del DOM
+const btnPedir = document.querySelector('#btnPedir');
+// Cuando hago click en el evento escuchar se dispara el callback
 btnPedir.addEventListener('click',  () => {
 
     const carta = pedirCarta();
     puntosJugador += valorCarta(carta);
-
     puntosHTML[0].innerText = puntosJugador;
     
+    // <img class="carta" src="assets/cartas/5C.png" alt=""></img>
+    const imgCarta = document.createElement('img');
+    imgCarta.src = `assets/cartas/${carta}.png`;
+    imgCarta.classList.add('carta');
+    divCartasJugador.append(imgCarta);
+
+    if(puntosJugador > 21) {
+        console.warn('Perdiste, te pasaste de 21');
+        btnPedir.disabled = true;
+    }else if( puntosJugador === 21 ) {
+        console.warn('Ganaste con el puntaje exacto');
+        btnPedir.disabled = true;
+    }
 
 });
