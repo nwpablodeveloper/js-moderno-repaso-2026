@@ -7,3 +7,14 @@
   - Optimizaciones y protección de código
     - Esta es una sección que enseña mucho sobre la protección de nuestro código y cómo manipular programas que no usen estos patrones.
 - V062 - Problematica del código de Blackjack
+- V063 - Patrón módulo
+  ```js
+    // Función llamada como Patrón Módulo
+
+    (() => {
+      
+      'use strict' // Evalua el código de forma estricta
+
+      // Ejecutar el código ya que es autoinvocada
+    })() 
+  ``` 
