@@ -29,7 +29,7 @@ const crearDeck = () => {
 
     // _.shuffle de la libreria UNDERSCORE es el method abarajar/Mezclar
     deck = _.shuffle(deck); 
-    console.log(deck);
+    // console.log(deck);
     return deck;
 }
 
@@ -122,27 +122,52 @@ const turnoComputadora = ( puntosJugador ) => {
         imgCarta.classList.add('carta');
         divCartaComputadora.append(imgCarta);
 
-        if( puntosComputadora < 21 && puntosJugador <= 21){
-            console.warn('Jugador gáno');
-        } else if( puntosComputadora > 21 && puntosJugador <= 21){
-             console.warn('Jugador gáno');
-        }
-    
-
         if( puntosJugador > 21){
             break;
         }
 
     }while( (puntosComputadora <= puntosJugador ) && ( puntosJugador <= 21 ));
 
+    setTimeout(() => {
+
+        if( puntosComputadora === puntosJugador){
+            alert('Empate');
+        } else if( puntosJugador > 21 ){
+            alert('Computadora gana');
+        }else if( puntosComputadora > 21 && puntosJugador <=21){
+            alert('Jugador gana');
+        }else if( puntosComputadora > puntosJugador){
+            alert('Computadora gana');
+        }else {
+            alert('Jugador gana');
+        }
+
+    },100);
+
 };
 
 
 const btnDetener = document.querySelector('#btnDetener');
-
 btnDetener.addEventListener('click', () => {
     btnPedir.disabled = true;
     btnDetener.disabled = true;
     turnoComputadora(puntosJugador);
-})
+
+});
+
+const btnNuevo = document.querySelector('#btnNuevo');
+btnNuevo.addEventListener('click', () => {
+    deck = [];
+    crearDeck();
+    puntosJugador = 0;
+    puntosComputadora = 0;
+    puntosHTML[0].innerHTML = 0;
+    puntosHTML[1].innerHTML = 0;
+    divCartaComputadora.innerHTML = "";
+    divCartasJugador.innerHTML = "";
+    btnPedir.disabled = false;
+    btnDetener.disabled = false;
+
+    console.clear();
+});
 
