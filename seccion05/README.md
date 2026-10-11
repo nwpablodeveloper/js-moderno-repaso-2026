@@ -54,3 +54,4 @@
 - V056 - Crear carta en el HTML
 - V057 - Turno de la computadora
 - V058 - Nuevo juego y mensaje de victoria
+- V059 - Código fuente de la sección
