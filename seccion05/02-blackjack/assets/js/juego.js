@@ -76,11 +76,11 @@ const puntosHTML = document.querySelectorAll('small');
 const divCartasJugador = document.querySelector('#jugador-cartas');
 
 let puntosJugador = 0;
-let puntosComputadora = 0;
 
 // Referencias del DOM
 const btnPedir = document.querySelector('#btnPedir');
 // Cuando hago click en el evento escuchar se dispara el callback
+
 btnPedir.addEventListener('click',  () => {
 
     const carta = pedirCarta();
@@ -94,11 +94,55 @@ btnPedir.addEventListener('click',  () => {
     divCartasJugador.append(imgCarta);
 
     if(puntosJugador > 21) {
-        console.warn('Perdiste, te pasaste de 21');
         btnPedir.disabled = true;
+        btnDetener.disabled = true;
+        turnoComputadora(puntosJugador);
     }else if( puntosJugador === 21 ) {
-        console.warn('Ganaste con el puntaje exacto');
         btnPedir.disabled = true;
+        btnDetener.disabled = true;
+        turnoComputadora(puntosJugador);
     }
 
 });
+
+// Turno de la computadora
+const divCartaComputadora = document.querySelector('#computadora-cartas');
+let puntosComputadora = 0;
+const turnoComputadora = ( puntosJugador ) => {
+
+    console.log(puntosJugador);
+
+    do{
+        const carta = pedirCarta();
+        puntosComputadora += valorCarta(carta);
+        puntosHTML[1].innerText = puntosComputadora;
+
+        const imgCarta = document.createElement('img');
+        imgCarta.src = `assets/cartas/${carta}.png`
+        imgCarta.classList.add('carta');
+        divCartaComputadora.append(imgCarta);
+
+        if( puntosComputadora < 21 && puntosJugador <= 21){
+            console.warn('Jugador gáno');
+        } else if( puntosComputadora > 21 && puntosJugador <= 21){
+             console.warn('Jugador gáno');
+        }
+    
+
+        if( puntosJugador > 21){
+            break;
+        }
+
+    }while( (puntosComputadora <= puntosJugador ) && ( puntosJugador <= 21 ));
+
+};
+
+
+const btnDetener = document.querySelector('#btnDetener');
+
+btnDetener.addEventListener('click', () => {
+    btnPedir.disabled = true;
+    btnDetener.disabled = true;
+    turnoComputadora(puntosJugador);
+})
+

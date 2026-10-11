@@ -52,3 +52,4 @@
   ``` 
 - V055 - Evento click, pedir una carta 
 - V056 - Crear carta en el HTML
+- V057 - Turno de la computadora
