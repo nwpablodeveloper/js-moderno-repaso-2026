@@ -56,3 +56,4 @@
     ``` 
   - Eventos
   - Crear imágenes en la página
+- [Sección 06 - 00:57 hs - Patrón módulo y optimizaciones](seccion06)
