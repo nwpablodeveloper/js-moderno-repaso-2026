@@ -18,3 +18,4 @@
       // Ejecutar el código ya que es autoinvocada
     })() 
   ``` 
+- V064 - Optimizaciones, primera parte

@@ -10,12 +10,24 @@
     'use strict'
 
     let deck = [];
-    const tipos = ['C','D','H','S'];
-    const especiales = ['A','J','Q','K'];
+    const tipos = ['C','D','H','S'],
+            especiales = ['A','J','Q','K'];
 
+    const puntosJugadores = [];
+
+    // Indicamos cuantos jugadores participan
+    const inicializarJuego = ( numJugadores = 2) => {
+        deck = crearDeck();
+        for (let i = 0; i < numJugadores; i++) {
+            puntosJugadores.push(0);
+            console.log({puntosJugadores});
+        }
+    }
 
     // Esta función crea una nueva baraja  (Mezcla el maso)
     const crearDeck = () => {
+
+        deck = [];
 
         for (let i = 2; i <= 10; i++){
             // deck.push( `${ i }C`);
@@ -31,13 +43,10 @@
         }
 
         // _.shuffle de la libreria UNDERSCORE es el method abarajar/Mezclar
-        deck = _.shuffle(deck); 
+        return _.shuffle(deck); 
         // console.log(deck);
-        return deck;
+        // return deck;
     }
-
-    // Esta función crea una nueva baraja (Mezcla el maso)
-    crearDeck();
 
 
     // Función permite tomar 1 carta
@@ -47,13 +56,13 @@
             throw 'No hay cartas en el deck'
         };
 
-        const carta = deck.pop();
+        return deck.pop();
+        // const carta = deck.pop();
         // console.log(carta);
-        return carta;
+        // return carta;
     }
 
     // Sumar los valores de las cartas pedidas
-    let puntos = 0;
     const valorCarta = ( carta ) => {
 
         // Cortar el string de la posición 0 hasta carta.lenght - 1
@@ -75,10 +84,8 @@
 
 
     // Referencias del DOM
-    const puntosHTML = document.querySelectorAll('small');
-    const divCartasJugador = document.querySelector('#jugador-cartas');
-
-    let puntosJugador = 0;
+    const puntosHTML = document.querySelectorAll('small'),
+        divCartasJugador = document.querySelector('#jugador-cartas');
 
     // Referencias del DOM
     const btnPedir = document.querySelector('#btnPedir');
@@ -108,9 +115,12 @@
 
     });
 
+    const acumularPuntos = () => {
+
+    }
+
     // Turno de la computadora
     const divCartaComputadora = document.querySelector('#computadora-cartas');
-    let puntosComputadora = 0;
     const turnoComputadora = ( puntosJugador ) => {
 
         console.log(puntosJugador);
@@ -160,8 +170,9 @@
 
     const btnNuevo = document.querySelector('#btnNuevo');
     btnNuevo.addEventListener('click', () => {
-        deck = [];
-        crearDeck();
+        // deck = [];
+        // crearDeck();
+        inicializarJuego();
         puntosJugador = 0;
         puntosComputadora = 0;
         puntosHTML[0].innerHTML = 0;
