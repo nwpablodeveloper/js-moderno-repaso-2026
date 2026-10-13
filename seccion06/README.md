@@ -22,3 +22,6 @@
 - V065 - Optimizaciones, segunda parte
 - V066 - Optimizaciones, tercera parte
 - V067 - Detalle pendientes sobre los puntos del jugador
+- V068 - Código fuente del juego de [blackjak](https://github.com/Klerith/js-blackjack/tree/master) (21)
+- V069 - [Code Minify](https://www.toptal.com/developers/javascript-minifier)
+  - App Web para minimizar/comprimir los archivos JS 
