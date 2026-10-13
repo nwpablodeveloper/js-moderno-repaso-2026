@@ -60,4 +60,13 @@
   - Patrón módulo
   - Minimizar el código de forma manual (luego lo haremos de forma automática)
   - Optimizaciones y protección de código
-- [Sección 07 - 01:25 hs - Clases en JavaScript y ESNext private properties]()
+- [Sección 07 - 01:25 hs - Clases en JavaScript y ESNext private properties](seccion07)
+  - Problematica de prototipos
+  - Clases
+  - Sets
+  - Gets
+  - Métodos estáticos
+  - Gets estáticos
+  - ESNext: Propiedades privadas (aún no soportado completamente)
+  - Singletons
+  - Multiples constructores
