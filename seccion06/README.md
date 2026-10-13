@@ -21,3 +21,4 @@
 - V064 - Optimizaciones, primera parte
 - V065 - Optimizaciones, segunda parte
 - V066 - Optimizaciones, tercera parte
+- V067 - Detalle pendientes sobre los puntos del jugador

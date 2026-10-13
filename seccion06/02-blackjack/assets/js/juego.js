@@ -24,6 +24,7 @@ const miModulo = (() => {
     let     puntosJugadores = [0,0];
 
     const inicializarJuego = ( numJugadores = 2 ) => {
+        deck = [];
         deck = crearDeck();
         for (let i = 0; i < puntosJugadores; i++) {
             puntosJugadores.push(0);
@@ -156,7 +157,7 @@ const miModulo = (() => {
     btnDetener.addEventListener('click', () => {
         btnPedir.disabled = true;
         btnDetener.disabled = true;
-        turnoComputadora(20);
+        turnoComputadora(puntosJugadores[0]);
 
     });
 
