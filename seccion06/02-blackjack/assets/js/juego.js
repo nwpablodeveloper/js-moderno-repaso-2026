@@ -6,7 +6,7 @@
 */
 // console.log(_);
 
-(() => {
+const miModulo = (() => {
     'use strict'
 
     let deck            = [];
@@ -28,6 +28,12 @@
         for (let i = 0; i < puntosJugadores; i++) {
             puntosJugadores.push(0);
         }
+
+        puntosHTML.forEach( elem => elem.innerHTML = 0);
+        divCartasJugadores.forEach( elem => elem.innerHTML = "");
+
+        btnPedir.disabled = false;
+        btnDetener.disabled = false;
     }
 
     // Esta función crea una nueva baraja  (Mezcla el maso)
@@ -106,6 +112,27 @@
 
     }
 
+    const determinarGanador = () => {
+
+        const [ puntosMinimos, puntosComputadora ] = puntosJugadores;
+
+         setTimeout(() => {
+
+            if( puntosComputadora === puntosMinimos){
+                alert('Empate');
+            } else if( puntosMinimos > 21 ){
+                alert('Computadora gana');
+            }else if( puntosComputadora > 21 && puntosMinimos <=21){
+                alert('Jugador gana');
+            }else if( puntosComputadora > puntosMinimos){
+                alert('Computadora gana');
+            }else {
+                alert('Jugador gana');
+            }
+
+        },100);
+    }
+
     const turnoComputadora = ( puntosJugador ) => {
 
         let puntosComputadora = 0;
@@ -121,21 +148,7 @@
 
         }while( (puntosComputadora <= puntosJugador ) && ( puntosJugador <= 21 ));
 
-        setTimeout(() => {
-
-            if( puntosComputadora === puntosJugador){
-                alert('Empate');
-            } else if( puntosJugador > 21 ){
-                alert('Computadora gana');
-            }else if( puntosComputadora > 21 && puntosJugador <=21){
-                alert('Jugador gana');
-            }else if( puntosComputadora > puntosJugador){
-                alert('Computadora gana');
-            }else {
-                alert('Jugador gana');
-            }
-
-        },100);
+        determinarGanador();
 
     };
 
@@ -150,18 +163,12 @@
     
     btnNuevo.addEventListener('click', () => {
 
-        console.clear();
         inicializarJuego();
-        // puntosJugador = 0;
-        // puntosComputadora = 0;
-        // puntosHTML[0].innerHTML = 0;
-        // puntosHTML[1].innerHTML = 0;
-        // divCartaComputadora.innerHTML = "";
-        // divCartasJugador.innerHTML = "";
-        btnPedir.disabled = false;
-        btnDetener.disabled = false;
 
     });
 
+    return {
+        nuevoJuego: inicializarJuego
+    };
 
 })();
