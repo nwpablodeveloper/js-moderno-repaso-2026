@@ -57,3 +57,7 @@
   - Eventos
   - Crear imágenes en la página
 - [Sección 06 - 00:57 hs - Patrón módulo y optimizaciones](seccion06)
+  - Patrón módulo
+  - Minimizar el código de forma manual (luego lo haremos de forma automática)
+  - Optimizaciones y protección de código
+- [Sección 07 - 01:25 hs - Clases en JavaScript y ESNext private properties]()
