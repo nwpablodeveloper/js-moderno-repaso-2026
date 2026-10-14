@@ -14,3 +14,4 @@
     - Esta sección es fundamental para la programación moderna de JavaScript, nos servirá mucho en el futuro y recuerden que al final de la sección tienen el código fuente.
 - V072 - Clases básicas, Problemática y necesidad de las clases
 - V073 - Clases básicas en JavaScript
+- V074 - Métodos en las clases
