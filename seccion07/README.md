@@ -15,3 +15,4 @@
 - V072 - Clases básicas, Problemática y necesidad de las clases
 - V073 - Clases básicas en JavaScript
 - V074 - Métodos en las clases
+- V075 - Sets y Gets

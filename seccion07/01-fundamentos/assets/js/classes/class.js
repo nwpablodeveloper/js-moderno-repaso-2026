@@ -7,6 +7,7 @@ class Persona {
     nombre  = "";
     codigo  = "";
     frase   = "";
+    comida   = "";
     
 
     // El constructor siempre retorna la instancia del objeto
@@ -18,6 +19,14 @@ class Persona {
         this.frase  = frase;
     }
 
+    set setComidaFavorita( comida){
+        this.comida = comida.toUpperCase();
+    }
+
+    get getComidaFavorita () {
+        return `La comida favorita de ${ this.nombre } es ${ this.comida}`;
+    }
+
     quienSoy() {
         console.log(`Soy ${ this.nombre } y mi entidad es: ${ this.codigo }`);
     }
@@ -26,6 +35,8 @@ class Persona {
         this.quienSoy();
         console.log(`${ this.codigo} dice: ${ this.frase }`);
     }
+
+
     
 }
 
@@ -44,3 +55,9 @@ ironman.miFrase();
 console.log(`\n`,spiderman2);
 spiderman2.quienSoy();
 spiderman2.miFrase();
+
+console.log(`\n`);
+console.log(spiderman2);
+spiderman2.setComidaFavorita = 'El pie de cereza de la tía May';
+console.log(spiderman2.getComidaFavorita);
+console.log(spiderman2);
