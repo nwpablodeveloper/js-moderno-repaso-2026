@@ -22,3 +22,7 @@
   ```
 - V077 - Extends - Clases y SubClases
 - V078 - Propiedades privadas
+- V079 - Singleton en JavaScript
+  ```
+    Un Singleton es una isntacina única de la clase
+  ```
