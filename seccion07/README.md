@@ -20,3 +20,4 @@
   ```
     Las propiedades y metodos estáticas puede ser utilizadas sin necesidad de instanciar el objeto
   ```
+- V077 - Extends - Clases y SubClases
