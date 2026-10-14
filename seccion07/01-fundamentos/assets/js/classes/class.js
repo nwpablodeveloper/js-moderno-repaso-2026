@@ -3,6 +3,15 @@
 class Persona {
     // por defecto todas las clases en javascritp tiene el 'use strict'
 
+    static _conteo = 0;
+    static get conteo (){
+        return Persona._conteo + ' Instancias creadas';
+    }
+
+    static mensaje () {
+        console.log(`Soy un método estatio`);
+    }
+
     // Definición de propiedades del objeto
     nombre  = "";
     codigo  = "";
@@ -13,7 +22,8 @@ class Persona {
     // El constructor siempre retorna la instancia del objeto
     constructor(nombre, codigo = 'sin código', frase){
 
-        console.log(`Hola`);
+        Persona._conteo++;
+        console.log(Persona.conteo);
         this.nombre = nombre;
         this.codigo = codigo;
         this.frase  = frase;
@@ -61,3 +71,12 @@ console.log(spiderman2);
 spiderman2.setComidaFavorita = 'El pie de cereza de la tía May';
 console.log(spiderman2.getComidaFavorita);
 console.log(spiderman2);
+
+// Persona._conteo = 2;
+// console.log(Persona._conteo);
+
+Persona.mensaje();
+
+Persona.propiedadEstaticaExterna = 'Esto es la creación de una propiedad estática externa';
+console.log(Persona.propiedadEstaticaExterna);
+console.log(Persona);

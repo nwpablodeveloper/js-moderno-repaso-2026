@@ -16,3 +16,7 @@
 - V073 - Clases básicas en JavaScript
 - V074 - Métodos en las clases
 - V075 - Sets y Gets
+- V076 - Propiedades, gets y métodos estáticos
+  ```
+    Las propiedades y metodos estáticas puede ser utilizadas sin necesidad de instanciar el objeto
+  ```
