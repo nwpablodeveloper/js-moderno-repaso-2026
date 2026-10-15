@@ -8,3 +8,6 @@
   - ¿Por qué queremos utilizar esas herramientas?
     - Y luego, nos moveremos a realizar trabajo con Vite en la aplicación de BlackJack.
 - V084 - Bundlers y herramientas
+  - Webpack
+  - Vite
+- V085 - Inicio de proyecto Vite con Node
