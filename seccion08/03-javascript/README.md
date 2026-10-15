@@ -7,3 +7,7 @@
     npm i
     npm run dev
 ```
+```
+    // Construir la app para producción
+    npm run build
+```
