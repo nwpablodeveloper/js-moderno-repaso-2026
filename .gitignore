@@ -7,9 +7,9 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-/seccion08/03-javascript/vite-app/node_modules
-/seccion08/03-javascript/vite-app/dist
-/seccion08/03-javascript/vite-app/dist-ssr
+/*/*/*/node_modules
+/*/*/*/dist
+/*/*/*/dist-ssr
 *.local
 
 # Editor directories and files
