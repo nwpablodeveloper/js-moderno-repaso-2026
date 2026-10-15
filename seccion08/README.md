@@ -11,3 +11,4 @@
   - Webpack
   - Vite
 - V085 - Inicio de proyecto Vite con Node
+- V086 - Ejecutar y explicar el proyecto

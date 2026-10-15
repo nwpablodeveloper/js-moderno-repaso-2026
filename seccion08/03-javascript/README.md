@@ -3,6 +3,7 @@
 ```
     npm create vite
 
+    navegar al directorio de la app
     npm i
     npm run dev
 ```
