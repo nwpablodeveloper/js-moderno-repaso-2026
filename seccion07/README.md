@@ -26,3 +26,5 @@
   ```
     Un Singleton es una isntacina única de la clase
   ```
+- V080 - Pro Tip: Multiples constructores
+- V081 - [Código fuente de la sección](https://github.com/Klerith/javascript-basics/releases/tag/v0.0.4)
