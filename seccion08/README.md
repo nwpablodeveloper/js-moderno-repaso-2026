@@ -15,3 +15,4 @@
 - V087 - Build - Despliegue en la nube
   - [netlify - Servidor para desplegar apps en JS](https://app.netlify.com/teams/nwpablodeveloper/projects)
 - V088 - Trabajar con Vite - Blackjack
+- V089 - Desplegar Blackjack
