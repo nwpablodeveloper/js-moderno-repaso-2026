@@ -70,3 +70,8 @@
   - ESNext: Propiedades privadas (aún no soportado completamente)
   - Singletons
   - Multiples constructores
+- [Sección 08 - 02:02 hs - Módulos y Vite](seccion08/)
+  - ¿Qué son bundlers?
+  - ¿Qué es Webpack y TurboPack?
+  - ¿Qué es Vite?
+  - ¿Por qué queremos utilizar esas herramientas?
