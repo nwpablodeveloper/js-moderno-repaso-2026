@@ -24,3 +24,6 @@
 - V090 - Refactorización del código
 - V091 - Crear Decck, módulos por defecto e individuales
 - V092 - Manejar documentación
+- V093 - Tarea, refactorizar pedir carta
+  - Refactorizar pedir una carta en un módulo independiente
+  - Refactorizar la función valor de carta en un módulo independiente
