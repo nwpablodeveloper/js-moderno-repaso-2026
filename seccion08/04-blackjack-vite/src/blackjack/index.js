@@ -43,6 +43,8 @@ const pedirCarta = () => {
     return carta;
 }
 
+
+
 // pedirCarta();
 const valorCarta = ( carta ) => {
 

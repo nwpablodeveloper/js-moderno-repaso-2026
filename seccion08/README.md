@@ -23,3 +23,4 @@
   ```
 - V090 - Refactorización del código
 - V091 - Crear Decck, módulos por defecto e individuales
+- V092 - Manejar documentación
