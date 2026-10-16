@@ -10,7 +10,7 @@ import { crearDeck } from './usecase/crear-deck'
  * 2S = Two of Spades
  */
 
-let     deck        = [];
+var     deck        = [];
 const   tipos       = ['C','D','H','S'];
 const   especiales  = ['A','J','Q','K'];
 
@@ -30,7 +30,7 @@ const puntosHTML = document.querySelectorAll('small');
 // Esta función crea un nuevo deck
 
 
-crearDeck();
+deck = crearDeck(tipos, especiales);
 
 
 // Esta función me permite tomar una carta
@@ -129,7 +129,7 @@ btnNuevo.addEventListener('click', () => {
 
     console.clear();
     deck = [];
-    deck = crearDeck();
+    deck = crearDeck(tipos, especiales);
 
     puntosJugador     = 0;
     puntosComputadora = 0;

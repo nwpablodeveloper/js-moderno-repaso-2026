@@ -22,3 +22,4 @@
     // Tener en cuenta que los archivos multimedia tienen que estar en la carpeta pulic
   ```
 - V090 - Refactorización del código
+- V091 - Crear Decck, módulos por defecto e individuales

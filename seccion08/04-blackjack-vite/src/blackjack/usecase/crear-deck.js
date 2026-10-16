@@ -2,6 +2,8 @@ import _ from 'underscore';
 
 export const crearDeck = (tiposDeCarta, tiposEspeciales) => {
 
+    let deck = [];
+    
     for( let i = 2; i <= 10; i++ ) {
         for( let tipo of tiposDeCarta ) {
             deck.push( i + tipo);
@@ -13,7 +15,7 @@ export const crearDeck = (tiposDeCarta, tiposEspeciales) => {
             deck.push( esp + tipo);
         }
     }
-    // console.log( deck );
     deck = _.shuffle( deck );
+    console.log( deck );
     return deck;
 }
