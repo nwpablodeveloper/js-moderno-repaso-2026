@@ -16,3 +16,8 @@
   - [netlify - Servidor para desplegar apps en JS](https://app.netlify.com/teams/nwpablodeveloper/projects)
 - V088 - Trabajar con Vite - Blackjack
 - V089 - Desplegar Blackjack
+  ```
+    npm run build
+
+    // Tener en cuenta que los archivos multimedia tienen que estar en la carpeta pulic
+  ```
