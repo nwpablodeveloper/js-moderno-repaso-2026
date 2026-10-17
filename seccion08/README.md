@@ -27,3 +27,4 @@
 - V093 - Tarea, refactorizar pedir carta
   - Refactorizar pedir una carta en un módulo independiente
   - Refactorizar la función valor de carta en un módulo independiente
+- V094 - Archivos de Barril o Barrido
