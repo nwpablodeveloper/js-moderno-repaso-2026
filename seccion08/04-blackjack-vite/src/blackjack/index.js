@@ -28,9 +28,6 @@ deck = crearDeck(tipos, especiales);
 // Esta función me permite tomar una carta del deck
 const carta = pedirCarta(deck);
 
-// Separar el valor de la carta
-valorCarta(carta);
-
 
 // turno de la computadora
 const turnoComputadora = ( puntosMinimos ) => {

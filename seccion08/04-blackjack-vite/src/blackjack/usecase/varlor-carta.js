@@ -2,7 +2,7 @@
 /**
  * 
  * @param {String} carta 
- * @returns El valor unico de la carta seperandoloa de su tipo
+ * @returns {number} Regresa el valor único de la carta
  */
 export const valorCarta = ( carta ) => {
 
