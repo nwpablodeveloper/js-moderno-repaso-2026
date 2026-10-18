@@ -13,3 +13,4 @@
   - Documentación de funciones
     - La idea es practicar la manipulación del DOM y mantener un estado global de nuestra aplicación. 
 - V108 - Inicio de proyecto - TodoApp
+- V109 - Construir el HTML de nuestra aplicación
