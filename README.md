@@ -84,7 +84,7 @@
   - Volver a desplegar los cambios
   - Usar GitHub Pages para desplegar nuestra aplicación funcionando
   - .gitignore
-- [Sección 10: Laboratorio - Vite Lista de tareas](seccion10/)
+- [Sección 10 - 02:09 hs - Laboratorio - Vite Lista de tareas](seccion10/)
   - Scopes
   - Variables locales
   - Store global
