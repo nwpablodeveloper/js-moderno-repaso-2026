@@ -16,3 +16,4 @@
 - V109 - Construir el HTML de nuestra aplicación
 - V110 - Store, concepto y ejecución
 - V111 - Métodos que ocuparemos del Store
+- V112 - Implementar métodos del Store

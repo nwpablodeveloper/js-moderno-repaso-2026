@@ -32,6 +32,10 @@ const loadStore = () => {
     throw new Error('load store no implementado');
 }
 
+const getTodo = () => {
+    throw new Error(`Método no implementado`);
+}
+
 const addTodo = () => {
     throw new Error('load store no implementado');
 }
