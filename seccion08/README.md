@@ -30,3 +30,4 @@
 - V094 - Archivos de Barril o Barrido
 - V095 - Refactorización, turno computadora
 - V096 - Refactorizar crear carta
+- V097 - [Código fuente de la sección](https://github.com/Klerith/js-blackjack-vite)
