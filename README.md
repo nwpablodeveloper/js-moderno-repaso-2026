@@ -76,3 +76,4 @@
   - ¿Qué es Vite?
   - ¿Por qué queremos utilizar esas herramientas?
   - [Clean Code - BUENAS PRACTICAS DE ANOTACIONES](https://jsdoc.app/)
+- [Sección 09 - 00:38 hs - Git - GitHub Pages](seccion08/)
