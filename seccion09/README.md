@@ -9,3 +9,4 @@
   - Volver a desplegar los cambios
   - Usar GitHub Pages para desplegar nuestra aplicación funcionando
   - .gitignore
+- V100 - Continuación de proyecto
