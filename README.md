@@ -77,3 +77,10 @@
   - ¿Por qué queremos utilizar esas herramientas?
   - [Clean Code - BUENAS PRACTICAS DE ANOTACIONES](https://jsdoc.app/)
 - [Sección 09 - 00:38 hs - Git - GitHub Pages](seccion08/)
+  - ¿Por qué debo de saber Git?
+  - Cómo tomar fotografías del estado de mi proyecto (commits)
+  - Subir cambios a Github
+  - Realizar modificaciones locales
+  - Volver a desplegar los cambios
+  - Usar GitHub Pages para desplegar nuestra aplicación funcionando
+  - .gitignore
