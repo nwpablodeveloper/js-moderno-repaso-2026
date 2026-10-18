@@ -27,6 +27,42 @@ const initStore = () => {
 
 }
 
+
+const loadStore = () => {
+    throw new Error('load store no implementado');
+}
+
+const addTodo = () => {
+    throw new Error('load store no implementado');
+}
+
+/**
+ * 
+ * @param {String} todoId Es el identificador de la tarea
+ */
+const toggleTodo = ( todoId ) => {
+    throw new Error('No implementado');
+}
+
+const deleteCompleted = () => {
+    throw new Error('No implementado');
+}
+
+const setFilter = ( newFilter = Filters.All ) => {
+    throw new Error('No implementado');
+}
+
+const getCurrentFilter = () => {
+    throw new Error('No implementado');
+}
+
+
 export default {
     initStore,
+    loadStore,
+    addTodo,
+    toggleTodo,
+    deleteCompleted,
+    setFilter,
+    getCurrentFilter,
 }

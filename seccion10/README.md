@@ -15,3 +15,4 @@
 - V108 - Inicio de proyecto - TodoApp
 - V109 - Construir el HTML de nuestra aplicación
 - V110 - Store, concepto y ejecución
+- V111 - Métodos que ocuparemos del Store
