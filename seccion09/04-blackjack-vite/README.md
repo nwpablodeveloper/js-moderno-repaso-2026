@@ -15,3 +15,5 @@ Pasos para ejecutar el proyecto
 ## Despler mi App JS en github
 
 1. Crear directorio dcos
+2. Copiar todo el contenido de la carta ```dist``` en ```docs```
+   1. Haber realizado antes el ```npm run build```
