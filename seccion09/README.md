@@ -14,6 +14,4 @@
   - Es un controlador de versiones
 - V102 - Configurar GIT en nuestro equipo
   - [Comandos de git que deberias conocer](recursos/official-github-git-cheat-sheet.pdf)
-  ```
-    
-  ```
+- V103 - Realizar nuevos cambios
