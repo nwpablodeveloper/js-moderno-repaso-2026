@@ -1,6 +1,7 @@
 
 import _ from 'underscore';
 import { 
+    crearCartaHTML,
     crearDeck, 
     pedirCarta, 
     valorCarta,
@@ -31,10 +32,6 @@ deck = crearDeck(tipos, especiales);
 const carta = pedirCarta(deck);
 
 
-// turno de la computadora
-
-
-
 // Eventos
 btnPedir.addEventListener('click', () => {
 
@@ -42,12 +39,8 @@ btnPedir.addEventListener('click', () => {
     
     puntosJugador = puntosJugador + valorCarta( carta );
     puntosHTML[0].innerText = puntosJugador;
-    
-    // <img class="carta" src="assets/cartas/2C.png">
-    const imgCarta = document.createElement('img');
-    imgCarta.src = `assets/cartas/${ carta }.png`; //3H, JD
-    imgCarta.classList.add('carta');
-    divCartasJugador.append( imgCarta );
+
+    divCartasJugador.append( crearCartaHTML( carta ) );
 
     if ( puntosJugador > 21 ) {
         console.warn('Lo siento mucho, perdiste');

@@ -29,3 +29,4 @@
   - Refactorizar la función valor de carta en un módulo independiente
 - V094 - Archivos de Barril o Barrido
 - V095 - Refactorización, turno computadora
+- V096 - Refactorizar crear carta
