@@ -64,6 +64,7 @@ const getCurrentFilter = () => {
 export default {
     initStore,
     loadStore,
+    getTodo,
     addTodo,
     toggleTodo,
     deleteCompleted,
