@@ -10,3 +10,5 @@
   - Usar GitHub Pages para desplegar nuestra aplicación funcionando
   - .gitignore
 - V100 - Continuación de proyecto
+- V101 - ¿Por qué debo saber GIT?
+  - Es un controlador de versiones
