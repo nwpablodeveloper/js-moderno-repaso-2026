@@ -32,7 +32,7 @@ const loadStore = () => {
     throw new Error('load store no implementado');
 }
 
-const getTodo = () => {
+const getTodo = ( filter = Filters.All) => {
     throw new Error(`Método no implementado`);
 }
 
