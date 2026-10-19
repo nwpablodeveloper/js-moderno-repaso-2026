@@ -13,9 +13,11 @@ const Filters = {
 const state = {
 
     todos: [
-        new Todo(`Piedar del infinito`),
-        new Todo(`Piedar del almaa`),
-        new Todo(`Piedar del tiempo`),
+        new Todo(`Piedar del Espacio`),
+        new Todo(`Piedar del Mente`),
+        new Todo(`Piedar del Realidad`),
+        new Todo(`Piedar del Poder`),
+        new Todo(`Piedar del Alma`),
     ],
     filter: Filters.All
 
@@ -61,9 +63,16 @@ const addTodo = ( description = '' ) => {
 /**
  * 
  * @param {String} todoId Es el identificador de la tarea
+ * cambia el estado de la tarea por ID
  */
 const toggleTodo = ( todoId ) => {
-    throw new Error('No implementado');
+    
+    state.todos = state.todos.map( todo => {
+        if( todo.id === todoId){
+            todo.done = !todo.done;
+        }
+        return todo;
+    });
 }
 
 // Eliminar tarea

@@ -15,5 +15,7 @@
 - V108 - Inicio de proyecto - TodoApp
 - V109 - Construir el HTML de nuestra aplicación
 - V110 - Store, concepto y ejecución
-- V111 - Métodos que ocuparemos del Store
-- V112 - Implementar métodos del Store
+- V111 - UUID - Identificador único
+- V112 - Métodos que ocuparemos del Store
+- V113 - Implementar métodos del Store
+- V114 - ToggleTodo - Cambiar estado
