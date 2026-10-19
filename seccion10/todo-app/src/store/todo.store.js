@@ -1,3 +1,4 @@
+// @ts-nocheck
 // Archivo para definir el estado total de la app
 
 import { Todo } from "../todos/models/todo.model";
@@ -32,12 +33,29 @@ const loadStore = () => {
     throw new Error('load store no implementado');
 }
 
-const getTodo = ( filter = Filters.All) => {
-    throw new Error(`Método no implementado`);
+const getTodos = ( filter = Filters.All) => {
+
+    switch ( filter ){
+        case Filters.All: 
+            return [...state.todos];
+
+        case Filters.Completed: 
+            return state.todos.filter( todo => todo.done  ); // ? todo.done regresa un array de los que estan en true
+
+        case Filters.Pending: 
+            return state.todos.filter( todo => !todo.done ); //  ? odo.done regresa los false
+
+        default: throw new Error (`${filter}: Opción no permitida`);
+    }
+
 }
 
-const addTodo = () => {
-    throw new Error('load store no implementado');
+
+const addTodo = ( description = '' ) => {
+
+    if( !description ) throw new Error (`La decripción es requerida`);
+
+    state.todos.push( new Todo( description) );
 }
 
 /**
@@ -48,23 +66,34 @@ const toggleTodo = ( todoId ) => {
     throw new Error('No implementado');
 }
 
-const deleteCompleted = () => {
-    throw new Error('No implementado');
+// Eliminar tarea
+const deleteTodo = ( todoId ) => {
+    state.todos = state.todos.filter( todo => todo.id !== todoId );
+
 }
 
+// Eliminar todas las tereas completadas
+const deleteCompleted = ( ) => {
+    state.todos = state.todos.filter ( todo => todo.done );
+}
+
+/**
+ * 
+ * @param {Filters} newFilter 
+ */
 const setFilter = ( newFilter = Filters.All ) => {
-    throw new Error('No implementado');
+    state.filter = newFilter;
 }
 
 const getCurrentFilter = () => {
-    throw new Error('No implementado');
+    return state.filter;
 }
 
 
 export default {
     initStore,
     loadStore,
-    getTodo,
+    getTodos,
     addTodo,
     toggleTodo,
     deleteCompleted,
