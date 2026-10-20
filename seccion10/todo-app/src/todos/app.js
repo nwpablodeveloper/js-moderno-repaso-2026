@@ -3,7 +3,7 @@
 import html from './app.html?raw'
 
 import todoStore from '../store/todo.store';
-import { rendoerTodo } from './use-cases';
+import { renderTodo } from './use-cases';
 
 const ElementsIds = {
     TodosList: '.todo-list',
@@ -18,7 +18,7 @@ export const App = ( elementId ) => {
     const displayTodos = () => {
         const todos = todoStore.getTodos( todoStore.getCurrentFilter());
         // @ts-ignore
-        rendoerTodo( ElementsIds.TodosList, todos);
+        renderTodo( ElementsIds.TodosList, todos);
     }
 
     (() => {

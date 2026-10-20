@@ -1,2 +1,2 @@
-export { rendoerTodo }  from './render-todo'
+export { renderTodo }  from './render-todo'
 export { createTodoHTML }  from './create-todo-html'
