@@ -1,6 +1,13 @@
-// ?raw para que vite force la importación
 // @ts-ignore
+// ?raw para que vite force la importación
 import html from './app.html?raw'
+
+import todoStore from '../store/todo.store';
+import { rendoerTodo } from './use-cases';
+
+const ElementsIds = {
+    TodosList: '.todo-list',
+}
 
 /**
  * 
@@ -8,15 +15,24 @@ import html from './app.html?raw'
  */
 export const App = ( elementId ) => {
 
+    const displayTodos = () => {
+        const todos = todoStore.getTodos( todoStore.getCurrentFilter());
+        // @ts-ignore
+        rendoerTodo( ElementsIds.TodosList, todos);
+    }
+
     (() => {
+
         const app = document.createElement('div');
-        app.innerHTML = html
+        app.innerHTML = html;
 
         if (!elementId) throw new Error(`No existe el elemento: ${elementId}`);
 
         const elementHTML = document.querySelector(elementId);
         if(!elementHTML) throw new Error (`El elemento HTML no llego`)
         elementHTML.append( app );
+
+        displayTodos();
     
     })();
 

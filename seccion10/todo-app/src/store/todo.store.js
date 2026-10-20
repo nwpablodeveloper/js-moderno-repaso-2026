@@ -24,9 +24,10 @@ const state = {
 }
 
 const initStore = () => {
-
-    console.log(state);
+/* 
     console.log(`InitStoro 🥑`);
+    console.log(state);
+    console.log(`InitStoro 🥑`); */
 
 }
 
