@@ -1,3 +1,4 @@
+// @ts-nocheck
 // @ts-ignore
 // ?raw para que vite force la importación
 import html from './app.html?raw'
@@ -7,6 +8,7 @@ import { renderTodo } from './use-cases';
 
 const ElementsIds = {
     TodosList: '.todo-list',
+    NewTodoImput: '#new-todo-input'
 }
 
 /**
@@ -35,5 +37,19 @@ export const App = ( elementId ) => {
         displayTodos();
     
     })();
+
+    // Referencias HTML
+    const newDescriptionImput = document.querySelector( ElementsIds.NewTodoImput );
+
+    // Listener
+    newDescriptionImput.addEventListener('keyup', ( event ) => {
+
+        if( event.keyCode !==13 ) return;
+        if( event.target.value.trim().lenght === 0 ) return;
+
+        todoStore.addTodo( event.target.value );
+        displayTodos();
+        event.target.value = '';
+    });
 
 }

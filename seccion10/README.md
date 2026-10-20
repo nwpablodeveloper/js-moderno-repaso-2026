@@ -21,3 +21,4 @@
 - V114 - ToggleTodo - Cambiar estado
 - V115 - Renderizar listado de todos en el HTML
 - V116 - Validaciones y optimizaciones
+- V117 - Crear un nuevo Todo
