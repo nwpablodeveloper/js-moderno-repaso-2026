@@ -40,6 +40,7 @@ export const App = ( elementId ) => {
 
     // Referencias HTML
     const newDescriptionImput = document.querySelector( ElementsIds.NewTodoImput );
+    const todoListUl = document.querySelector( ElementsIds.TodosList );
 
     // Listener
     newDescriptionImput.addEventListener('keyup', ( event ) => {
@@ -52,4 +53,12 @@ export const App = ( elementId ) => {
         event.target.value = '';
     });
 
+    todoListUl.addEventListener('click', ( event ) => {
+        
+        // .closest busca el elemnto padra HTML "data-id"
+        const element = event.target.closest('[data-id]');
+        todoStore.toggleTodo( element.getAttribute('data-id') );
+        
+        displayTodos();
+    });
 }

@@ -13,11 +13,11 @@ const Filters = {
 const state = {
 
     todos: [
-        new Todo(`Piedar del Espacio`),
-        new Todo(`Piedar del Mente`),
-        new Todo(`Piedar del Realidad`),
-        new Todo(`Piedar del Poder`),
-        new Todo(`Piedar del Alma`),
+        new Todo(`Piedra del Espacio`),
+        new Todo(`Piedra del Mente`),
+        new Todo(`Piedra del Realidad`),
+        new Todo(`Piedra del Poder`),
+        new Todo(`Piedra del Alma`),
     ],
     filter: Filters.All
 
