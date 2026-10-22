@@ -24,16 +24,24 @@ const state = {
 }
 
 const initStore = () => {
-/* 
-    console.log(`InitStoro 🥑`);
-    console.log(state);
-    console.log(`InitStoro 🥑`); */
+    
+    loadStore();
 
 }
 
 
 const loadStore = () => {
-    throw new Error('load store no implementado');
+
+    if( !localStorage.getItem('state') ) return;
+
+    const { todos = [], filter = Filters.All } = JSON.parse(localStorage.getItem('state'));
+
+    state.todos = todos,
+    state.filter = filter;
+}
+
+const saveTodoLocalStorage = () => {
+    localStorage.setItem('state', JSON.stringify(state));
 }
 
 const getTodos = ( filter = Filters.All) => {
@@ -57,8 +65,9 @@ const getTodos = ( filter = Filters.All) => {
 const addTodo = ( description = '' ) => {
 
     if( !description ) throw new Error (`La decripción es requerida`);
-
     state.todos.push( new Todo( description) );
+
+    saveTodoLocalStorage();
 }
 
 /**
@@ -74,16 +83,22 @@ const toggleTodo = ( todoId ) => {
         }
         return todo;
     });
+
+    saveTodoLocalStorage();
 }
 
 // Eliminar tarea
 const deleteTodo = ( todoId ) => {
     state.todos = state.todos.filter( todo => todo.id !== todoId );
+
+    saveTodoLocalStorage();
 }
 
 // Eliminar todas las tereas completadas
 const deleteCompleted = ( ) => {
     state.todos = state.todos.filter ( todo => todo.done );
+
+    saveTodoLocalStorage();
 }
 
 /**
@@ -108,4 +123,5 @@ export default {
     deleteCompleted,
     setFilter,
     getCurrentFilter,
+    saveTodoLocalStorage
 }

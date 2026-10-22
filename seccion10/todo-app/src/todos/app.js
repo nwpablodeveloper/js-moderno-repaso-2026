@@ -34,8 +34,9 @@ export const App = (elementId) => {
         if (!elementHTML) throw new Error(`El elemento HTML no llego`)
         elementHTML.append(app);
 
+        todoStore.initStore();
         displayTodos();
-
+        
     })();
 
     // Referencias HTML
