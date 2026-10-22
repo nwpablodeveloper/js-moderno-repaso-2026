@@ -79,7 +79,6 @@ const toggleTodo = ( todoId ) => {
 // Eliminar tarea
 const deleteTodo = ( todoId ) => {
     state.todos = state.todos.filter( todo => todo.id !== todoId );
-
 }
 
 // Eliminar todas las tereas completadas
@@ -99,13 +98,13 @@ const getCurrentFilter = () => {
     return state.filter;
 }
 
-
 export default {
     initStore,
     loadStore,
     getTodos,
     addTodo,
     toggleTodo,
+    deleteTodo,
     deleteCompleted,
     setFilter,
     getCurrentFilter,

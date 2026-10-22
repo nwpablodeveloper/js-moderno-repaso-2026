@@ -23,3 +23,4 @@
 - V116 - Validaciones y optimizaciones
 - V117 - Crear un nuevo Todo
 - V118 - Toggle Todos
+- V119 - Eliminar un Todo

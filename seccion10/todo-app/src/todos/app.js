@@ -15,12 +15,12 @@ const ElementsIds = {
  * 
  * @param {String} elementId Elemento donde voy a renderizar mi App
  */
-export const App = ( elementId ) => {
+export const App = (elementId) => {
 
     const displayTodos = () => {
-        const todos = todoStore.getTodos( todoStore.getCurrentFilter());
+        const todos = todoStore.getTodos(todoStore.getCurrentFilter());
         // @ts-ignore
-        renderTodo( ElementsIds.TodosList, todos);
+        renderTodo(ElementsIds.TodosList, todos);
     }
 
     (() => {
@@ -31,34 +31,45 @@ export const App = ( elementId ) => {
         if (!elementId) throw new Error(`No existe el elemento: ${elementId}`);
 
         const elementHTML = document.querySelector(elementId);
-        if(!elementHTML) throw new Error (`El elemento HTML no llego`)
-        elementHTML.append( app );
+        if (!elementHTML) throw new Error(`El elemento HTML no llego`)
+        elementHTML.append(app);
 
         displayTodos();
-    
+
     })();
 
     // Referencias HTML
-    const newDescriptionImput = document.querySelector( ElementsIds.NewTodoImput );
-    const todoListUl = document.querySelector( ElementsIds.TodosList );
+    const newDescriptionImput = document.querySelector(ElementsIds.NewTodoImput);
+    const todoListUl = document.querySelector(ElementsIds.TodosList);
 
     // Listener
-    newDescriptionImput.addEventListener('keyup', ( event ) => {
+    newDescriptionImput.addEventListener('keyup', (event) => {
 
-        if( event.keyCode !==13 ) return;
-        if( event.target.value.trim().lenght === 0 ) return;
+        if (event.keyCode !== 13) return;
+        if (event.target.value.trim().lenght === 0) return;
 
-        todoStore.addTodo( event.target.value );
+        todoStore.addTodo(event.target.value);
         displayTodos();
         event.target.value = '';
     });
 
-    todoListUl.addEventListener('click', ( event ) => {
-        
+    todoListUl.addEventListener('click', (event) => {
+
         // .closest busca el elemnto padra HTML "data-id"
         const element = event.target.closest('[data-id]');
-        todoStore.toggleTodo( element.getAttribute('data-id') );
-        
+        todoStore.toggleTodo(element.getAttribute('data-id'));
+
         displayTodos();
+    });
+
+    todoListUl.addEventListener('click', (event) => {
+
+        if (event.target.className != 'destroy') return;
+        
+        const element = event.target.closest('[data-id]');
+        todoStore.deleteTodo( element.getAttribute('data-id')); 
+
+        displayTodos();
+
     });
 }
