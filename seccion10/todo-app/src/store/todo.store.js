@@ -4,7 +4,7 @@
 import { Todo } from "../todos/models/todo.model";
 
 // Centralizar las opciones del filtro con una interface
-const Filters = {
+export const Filters = {
     All: 'all',
     Completed: 'Completed',
     Pending: 'Pendig'

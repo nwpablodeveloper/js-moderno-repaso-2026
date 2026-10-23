@@ -28,3 +28,4 @@
   - Local Storage: Guarda datos hasta que los elimines manualmente, incluso al cerrar el navegador.
   - Session Storage: Guarda datos solo durante la sesión de esa pestaña; al cerrarla, se eliminan.
 - V121 - Borrar todos - TODOSs completados
+- V122 - Cambiar filtro Visualmente
