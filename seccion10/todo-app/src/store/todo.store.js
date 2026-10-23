@@ -96,7 +96,8 @@ const deleteTodo = ( todoId ) => {
 
 // Eliminar todas las tereas completadas
 const deleteCompleted = ( ) => {
-    state.todos = state.todos.filter ( todo => todo.done );
+
+    state.todos = state.todos.filter ( todo => !todo.done );
 
     saveTodoLocalStorage();
 }
