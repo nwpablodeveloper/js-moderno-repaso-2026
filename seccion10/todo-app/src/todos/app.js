@@ -4,13 +4,14 @@
 import html from './app.html?raw'
 
 import todoStore, { Filters } from '../store/todo.store';
-import { renderTodo } from './use-cases';
+import { renderTodo, renderPending } from './use-cases';
 
 const ElementsIds = {
     ClearCompletedButton: '.clear-completed',
     TodosList: '.todo-list',
     NewTodoImput: '#new-todo-input',
-    TodosFilters: '.filter'
+    TodosFilters: '.filter',
+    pendingCount: '#pending-count'
 }
 
 /**
@@ -23,6 +24,12 @@ export const App = (elementId) => {
         const todos = todoStore.getTodos(todoStore.getCurrentFilter());
         // @ts-ignore
         renderTodo(ElementsIds.TodosList, todos);
+        
+        updatePendingCoutn();
+    }
+
+    const updatePendingCoutn = () => {
+        renderPending(ElementsIds.pendingCount);
     }
 
     (() => {
