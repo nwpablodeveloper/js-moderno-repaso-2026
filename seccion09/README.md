@@ -1,4 +1,4 @@
-# Sección 08: Git - GitHub Pages
+# Sección 09: Git - GitHub Pages
 
 - V098 - Introducción a la sección
 - V099 - Temas puntuales de la sección
@@ -18,3 +18,4 @@
 - V104 - Desplegar en GitHub Pages
 - V105 - Comandos útiles que debes de saber
 - [12 comandos de git que debes de conocer - Video](https://www.youtube.com/watch?v=iT4UOkyI09k)
+  - [Blackjack en en GitHub Pages](https://nwpablodeveloper.github.io/blackjack-repaso2026/)

@@ -29,3 +29,5 @@
   - Session Storage: Guarda datos solo durante la sesión de esa pestaña; al cerrarla, se eliminan.
 - V121 - Borrar todos - TODOSs completados
 - V122 - Cambiar filtro Visualmente
+- V123 - Mostrar cantidad de todos pendientes
+    - [Lista de tares en GitHub Pages](https://nwpablodeveloper.github.io/lista-tareas-javascript-fh-2026-repaso/)

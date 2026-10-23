@@ -83,6 +83,8 @@
   - Realizar modificaciones locales
   - Volver a desplegar los cambios
   - Usar GitHub Pages para desplegar nuestra aplicación funcionando
+  - [Configuración ```vite.config.js```  para GitHub Pages](seccion09/04-blackjack-vite/)
+  - [Blackjack en en GitHub Pages](https://nwpablodeveloper.github.io/blackjack-repaso2026/)
   - .gitignore
 - [Sección 10 - 02:09 hs - Laboratorio - Vite Lista de tareas](seccion10/)
   - Scopes
@@ -94,3 +96,5 @@
   - Despliegues
   - Vite
   - Documentación de funciones
+  - [Configuración ```vite.config.js```  para GitHub Pages](seccion09/04-blackjack-vite/)
+    - [Lista de tares en GitHub Pages](https://nwpablodeveloper.github.io/lista-tareas-javascript-fh-2026-repaso/)
