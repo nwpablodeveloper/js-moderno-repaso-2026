@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    base: '/lista-tareas-javascript-fh-2026-repaso/' // repositorio que nos brinda github
+    base: '' // Para desplegar en otro server
+    // base: `/${ nombreRepositorioGitHub }/` // repositorio que nos brinda github
 });
