@@ -4,7 +4,7 @@ import heroImg from './assets/hero.png'
 import javascriptLogo from './assets/javascript.svg'
 import viteLogo from './assets/vite.svg'
 import { setupCounter } from './counter.js'
-import { callbacksHellComponent } from './concepts/v132-callbacks-hell.js'
+import { callbacksHellComponent } from './concepts/v133-callbacks-hell.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
