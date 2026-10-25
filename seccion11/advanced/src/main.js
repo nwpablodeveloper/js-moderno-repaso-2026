@@ -4,7 +4,7 @@ import heroImg from './assets/hero.png'
 import javascriptLogo from './assets/javascript.svg'
 import viteLogo from './assets/vite.svg'
 import { setupCounter } from './counter.js'
-import { callbacksHellComponent } from './concepts/v133-callbacks-hell.js'
+import { promisesComponent } from './concepts/v134-promesas.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -25,5 +25,5 @@ document.querySelector('#app').innerHTML = `
 
 const element = document.querySelector('.card')
 
-callbacksHellComponent( element );
+promisesComponent( element );
 
