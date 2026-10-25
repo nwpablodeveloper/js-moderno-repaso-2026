@@ -99,3 +99,10 @@
   - [Configuración ```vite.config.js```  para GitHub Pages](seccion09/04-blackjack-vite/)
     - [Lista de tares en GitHub Pages](https://nwpablodeveloper.github.io/lista-tareas-javascript-fh-2026-repaso/)
 - [Sección 11: Callbacks, promesas y generadores](seccion11/)
+  - Variables de entorno
+  - Callbacks y callback hell
+  - Promises y promise hell
+  - Async, async - await
+  - Evitar los callback o promise hells
+  - Funciones generadoras
+  - Funciones generadoras asíncronas
