@@ -12,10 +12,10 @@ export const callbacksComponent = ( element ) => {
 
     const id = `5d86371f1efebc31def272e2`;
     findHeroes( id, (error, heroe) => {
-        // element.innerHTML = heroe?.name || "No hay heroe";
         
         if( error ){
             element.innerHTML = error;
+            return;
         }
         element.innerHTML = heroe.name;
     });
