@@ -4,6 +4,7 @@ import heroImg from './assets/hero.png'
 import javascriptLogo from './assets/javascript.svg'
 import viteLogo from './assets/vite.svg'
 import { setupCounter } from './counter.js'
+import { enviromentsComponent } from './concepts/01-enviroments.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -14,11 +15,15 @@ document.querySelector('#app').innerHTML = `
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
     <h1>Hello Vite!</h1>
+
     <div class="card">
-      
     
     </div>
-    
+
   </div>
 `
+
+const element = document.querySelector('.card')
+
+enviromentsComponent( element );
 
