@@ -9,8 +9,9 @@
   - Evitar los callback o promise hells
   - Funciones generadoras
   - Funciones generadoras asíncronas
-- V129 - Inicio del proyecto, conceptos avanzados
-- V130 - Variables de entorno
+- V128 - Inicio del proyecto, conceptos avanzados
+- V129 - Variables de entorno
   - .env
   - ```VITE_NOMBRE_VARIABLE``` Es necesario ```VITE_``` para que reconozca las variables
   - ```import.meta.env```  para acceder a las variables
+- V130 - Componente rápido para futuros ejercicios
