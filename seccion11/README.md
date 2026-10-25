@@ -19,3 +19,11 @@
   ```
     Un callback en JavaScript es una función que se pasa como argumento a otra función para que se ejecute más tarde, normalmente cuando ocurre algo o termina una tarea.
   ```
+- V132 - Manejo de errores en los Callbacks
+  ```js
+    const id = `5d86371f1efebc31def272e22`;
+      findHeroes( id, (heroe) => {
+          // agregando el ? nos va a tirar Undefined si no lo encuentra
+          element.innerHTML = heroe?.name ; 
+      });
+  ```
