@@ -98,3 +98,4 @@
   - Documentación de funciones
   - [Configuración ```vite.config.js```  para GitHub Pages](seccion09/04-blackjack-vite/)
     - [Lista de tares en GitHub Pages](https://nwpablodeveloper.github.io/lista-tareas-javascript-fh-2026-repaso/)
+- [Sección 11: Callbacks, promesas y generadores](seccion11/)
