@@ -9,3 +9,5 @@
   - Evitar los callback o promise hells
   - Funciones generadoras
   - Funciones generadoras asíncronas
+- V129 - Inicio del proyecto, conceptos avanzados
+- V130 - 
