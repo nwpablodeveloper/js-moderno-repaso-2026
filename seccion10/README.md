@@ -31,3 +31,4 @@
 - V122 - Cambiar filtro Visualmente
 - V123 - Mostrar cantidad de todos pendientes
     - [Lista de tares en GitHub Pages](https://nwpablodeveloper.github.io/lista-tareas-javascript-fh-2026-repaso/)
+- V124 - [Deplegar en Netlify](https://inquisitive-frangollo-09ce9d.netlify.app/)
