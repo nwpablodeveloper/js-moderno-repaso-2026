@@ -32,3 +32,4 @@
 - V123 - Mostrar cantidad de todos pendientes
     - [Lista de tares en GitHub Pages](https://nwpablodeveloper.github.io/lista-tareas-javascript-fh-2026-repaso/)
 - V124 - [Deplegar en Netlify](https://inquisitive-frangollo-09ce9d.netlify.app/)
+- V125 - [Código de la sección](https://github.com/Klerith/js-moderno-vite-todo/tree/main)
