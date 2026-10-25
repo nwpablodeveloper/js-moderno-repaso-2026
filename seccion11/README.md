@@ -15,3 +15,7 @@
   - ```VITE_NOMBRE_VARIABLE``` Es necesario ```VITE_``` para que reconozca las variables
   - ```import.meta.env```  para acceder a las variables
 - V130 - Componente rápido para futuros ejercicios
+- V131 - Callbacks
+  ```
+    Un callback en JavaScript es una función que se pasa como argumento a otra función para que se ejecute más tarde, normalmente cuando ocurre algo o termina una tarea.
+  ```
