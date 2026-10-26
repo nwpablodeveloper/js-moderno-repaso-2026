@@ -8,7 +8,8 @@ import { setupCounter } from './counter.js';
 // import { promisesHellComponent } from './concepts/v136-promises-hell.js';
 // import { promisesAllComponent } from './concepts/v137-promise-all.js';
 // import { promiseRaceComponente } from './concepts/v138-promise-race.js';
-import { asyncComponente } from './concepts/v139-async.js';
+// import { asyncComponente } from './concepts/v139-async.js';
+import { asyncManejoErroresComponente } from './concepts/v140-asyn-manejo-de-errores.js';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -30,5 +31,5 @@ document.querySelector('#app').innerHTML = `
 const element = document.querySelector('.card')
 
 // promiseRaceComponente( element );
-asyncComponente( element );
+asyncManejoErroresComponente( element );
 
