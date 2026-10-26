@@ -12,7 +12,8 @@ export const asyncComponente = ( element ) => {
 
 
     findHero( id1 )
-        .then( name  => element.innerHTML = name);
+        .then( name  => element.innerHTML = name)
+        .catch( error => element.innerHTML = error )
     
 
 
