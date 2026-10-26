@@ -27,7 +27,7 @@ export const promisesAllComponent = ( element ) => {
     }
 
 
-    // 1) Se ejecutan en cadena de Promesas
+    //* 1) Se ejecutan en cadena de Promesas
     // findHero(id1)
     //     .then( ( hero1 ) => {
     //         findHero(id2)
@@ -38,7 +38,7 @@ export const promisesAllComponent = ( element ) => {
     // .catch(renderError)
 
 
-    // 2) Támbien se ejecutan en cadena de Promesas
+    //* 2) Támbien se ejecutan en cadena de Promesas
     // let hero1, hero2;
     // findHero( id1 )
     //     .then( hero => {
@@ -50,7 +50,7 @@ export const promisesAllComponent = ( element ) => {
     //     })
     //     .catch( renderError )
 
-    // 3) Promises.All() Ejecuta un arreglo de Promesas
+    //* 3) Promises.All() Ejecuta un arreglo de Promesas
     Promise.all([
         findHero(id1),
         findHero(id2)
