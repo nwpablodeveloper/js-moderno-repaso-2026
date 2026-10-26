@@ -32,4 +32,4 @@
 - V135 - Utilizar una promesa
 - V136 - Promise Hell
 - V137 - Promise All (Arreglo de promesas)
-- V138 - 
+- V138 - Promese Race
