@@ -101,7 +101,9 @@
 - [Sección 11: Callbacks, promesas y generadores](seccion11/)
   - Variables de entorno
   - Callbacks y callback hell
-  - Promises y promise hell
+  - Promesas
+  - Promesas hell
+  - Promesas All ```Promise.All([])``` - Arreglo de promesas
   - Async, async - await
   - Evitar los callback o promise hells
   - Funciones generadoras

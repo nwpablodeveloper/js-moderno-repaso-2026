@@ -31,3 +31,4 @@
 - V134 - Promesas
 - V135 - Utilizar una promesa
 - V136 - Promise Hell
+- V137 - Promise All (Arreglo de promesas)

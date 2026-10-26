@@ -5,7 +5,8 @@ import javascriptLogo from './assets/javascript.svg';
 import viteLogo from './assets/vite.svg';
 import { setupCounter } from './counter.js';
 // import { promisesComponent } from './concepts/v134-promesas.js';
-import { promisesHellComponent } from './concepts/v136-promises-hell.js';
+// import { promisesHellComponent } from './concepts/v136-promises-hell.js';
+import { promisesAllComponent } from './concepts/v137-promise-all.js';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -26,5 +27,5 @@ document.querySelector('#app').innerHTML = `
 
 const element = document.querySelector('.card')
 
-promisesHellComponent( element );
+promisesAllComponent( element );
 
