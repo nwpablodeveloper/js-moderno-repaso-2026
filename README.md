@@ -106,6 +106,7 @@
   - Promesas All ```Promise.All([])``` - Arreglo de promesas
   - Promesas Race
   - Async, async - await
+  - Async Await con Try/Catch
   - Evitar los callback o promise hells
   - Funciones generadoras
   - Funciones generadoras asíncronas
