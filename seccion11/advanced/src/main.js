@@ -1,11 +1,11 @@
 // @ts-nocheck
-import './style.css'
-import heroImg from './assets/hero.png'
-import javascriptLogo from './assets/javascript.svg'
-import viteLogo from './assets/vite.svg'
-import { setupCounter } from './counter.js'
-// import { promisesComponent } from './concepts/v134-promesas.js'
-import { promisesComponent } from './concepts/v135-utilizar-promesa.js'
+import './style.css';
+import heroImg from './assets/hero.png';
+import javascriptLogo from './assets/javascript.svg';
+import viteLogo from './assets/vite.svg';
+import { setupCounter } from './counter.js';
+// import { promisesComponent } from './concepts/v134-promesas.js';
+import { promisesHellComponent } from './concepts/v136-promises-hell.js';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -26,5 +26,5 @@ document.querySelector('#app').innerHTML = `
 
 const element = document.querySelector('.card')
 
-promisesComponent( element );
+promisesHellComponent( element );
 

@@ -30,3 +30,4 @@
 - V133 - [Callback Hell](advanced/src/concepts/v132-callbacks-hell.js)
 - V134 - Promesas
 - V135 - Utilizar una promesa
+- V136 - Promise Hell
