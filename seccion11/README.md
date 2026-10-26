@@ -39,3 +39,4 @@
 - V140 - Manejo de errores en funciones asíncronas
 - V141 - Async y Await
 - V142 - Errores en Async y Await usando try/catch
+- V143 - Optimizar promesas no secuenciales
