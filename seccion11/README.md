@@ -33,3 +33,6 @@
 - V136 - Promise Hell
 - V137 - Promise All (Arreglo de promesas)
 - V138 - Promese Race
+- V139 - Async
+  - En ves de devolver el valor de una función va a resolver una ```Promesa``` y nos va a dar acceso al .then()
+   al momento de ser llamada.

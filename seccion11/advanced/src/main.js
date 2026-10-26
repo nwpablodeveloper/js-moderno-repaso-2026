@@ -7,7 +7,8 @@ import { setupCounter } from './counter.js';
 // import { promisesComponent } from './concepts/v134-promesas.js';
 // import { promisesHellComponent } from './concepts/v136-promises-hell.js';
 // import { promisesAllComponent } from './concepts/v137-promise-all.js';
-import { promiseRaceComponente } from './concepts/v138-promise-race.js';
+// import { promiseRaceComponente } from './concepts/v138-promise-race.js';
+import { asyncComponente } from './concepts/v139-async.js';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -28,5 +29,6 @@ document.querySelector('#app').innerHTML = `
 
 const element = document.querySelector('.card')
 
-promiseRaceComponente( element );
+// promiseRaceComponente( element );
+asyncComponente( element );
 
