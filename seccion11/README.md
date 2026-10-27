@@ -43,3 +43,4 @@
 - V144 - For await y if await
 - V145 - Funciones generales
 - V146 - Ejemplo de funciones generadoras
+- V147 - Funciones generadoras asíncronas
