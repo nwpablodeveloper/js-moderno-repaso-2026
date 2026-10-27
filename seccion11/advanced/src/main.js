@@ -13,7 +13,8 @@ import { setupCounter } from './counter.js';
 // import { asyncAwaitComponente } from './concepts/v141-async-await.js';
 // import { asyncAwaitErroresComponente } from './concepts/v142-async-await-errores.js';
 // import { asyncAwaitNoSecuencialComponente } from './concepts/v143-async-await-no-secuencial.js';
-import { forAwaitComponent } from './concepts/v144-for-await-if-await.js';
+// import { forAwaitComponent } from './concepts/v144-for-await-if-await.js';
+import { funcionesGeneradorasComponente } from './concepts/v145-funciones-generadoras.js';
 
 
 document.querySelector('#app').innerHTML = `
@@ -36,5 +37,5 @@ document.querySelector('#app').innerHTML = `
 const element = document.querySelector('.card')
 
 // promiseRaceComponente( element );
-forAwaitComponent( element );
+funcionesGeneradorasComponente( element );
 
