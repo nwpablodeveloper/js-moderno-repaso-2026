@@ -12,8 +12,9 @@ import { setupCounter } from './counter.js';
 // import { asyncManejoErroresComponente } from './concepts/v140-asyn-manejo-de-errores.js';
 // import { asyncAwaitComponente } from './concepts/v141-async-await.js';
 // import { asyncAwaitErroresComponente } from './concepts/v142-async-await-errores.js';
-import { asyncAwaitNoSecuencialComponente } from './concepts/v143-async-await-no-secuencial.js';
-// 
+// import { asyncAwaitNoSecuencialComponente } from './concepts/v143-async-await-no-secuencial.js';
+import { forAwaitComponent } from './concepts/v144-for-await-if-await.js';
+
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -35,5 +36,5 @@ document.querySelector('#app').innerHTML = `
 const element = document.querySelector('.card')
 
 // promiseRaceComponente( element );
-asyncAwaitNoSecuencialComponente( element );
+forAwaitComponent( element );
 
