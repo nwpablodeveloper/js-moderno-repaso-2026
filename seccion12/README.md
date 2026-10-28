@@ -13,3 +13,4 @@
 - V153 - Postman, peticiones HTTP
   - [Pokemon API](https://pokeapi.co/)
 - V154 - fetchAPI, peticiones HTTP GET
+- V155 - Simplificar el código de la petición fetch anterior

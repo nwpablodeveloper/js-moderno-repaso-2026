@@ -1,22 +1,36 @@
 // @ts-nocheck
 
 /**
- * Fecht pokemon información de pokemon API
+ * 
  * @param {number} id 
- * @returns {Object} Devuelve la información de un pokemon
+ * @returns {Promise<Object>}
  */
-export const getPokemonById = ( id ) => {
+export const getPokemonById = async ( id ) => {
 
+    //* Método no simplificado
+    // fetch(`https://pokeapi.co/api/v2/pokemon/${ id }`)
+    //     .then( response => {
+    //         return response.json()
+    //     })
+    //     .then( data => {
+    //         console.log(data);
+    //     })
+    //     .catch( error => {
+    //         console.log(error);
+    //     })
 
-    fetch(`https://pokeapi.co/api/v2/pokemon/${ id }`)
-        .then( response => {
-            return response.json()
-        })
-        .then( console.log )
-        .catch( error => {
-            console.log(error);
-        })
+    //* Refactorizado
+    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${ id }`);
+    const data = await response.json();
+    console.log(data);
+    const pokemonData = {
+        id: data.id,
+        name: data.name,
+        image: data.location_area_encounters
+    }
 
-    return {};
+    console.log(pokemonData);
+
+    return { pokemonData };
 
 }
