@@ -111,3 +111,8 @@
   - Funciones generadoras
   - Funciones generadoras asíncronas
 - [Sección 12 - 00:54 hs -  Peticiones HTTP](seccion12/)
+  - Peticiones HTTP con Fetch API (método GET)
+  - Pruebas de endpoints con Postman
+  - Renderizado de datos en el DOM
+  - Listeners de botones para navegación
+  - Implementación de caché para mejorar la experiencia de usuario
