@@ -10,3 +10,5 @@
 - V151 - Inicio de proyecto - HTTP App
   - [Estilos para la App](https://gist.github.com/Klerith/78bef71dd472bfb3a29a263fbc3cbe58)
 - V152 - Pokemon, componente principal
+- V153 - Postman, peticiones HTTP
+  - [Pokemon API](https://pokeapi.co/)
