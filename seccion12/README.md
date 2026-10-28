@@ -12,3 +12,4 @@
 - V152 - Pokemon, componente principal
 - V153 - Postman, peticiones HTTP
   - [Pokemon API](https://pokeapi.co/)
+- V154 - fetchAPI, peticiones HTTP GET
