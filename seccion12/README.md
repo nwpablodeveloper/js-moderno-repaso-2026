@@ -9,3 +9,4 @@
   - Implementación de caché para mejorar la experiencia de usuario
 - V151 - Inicio de proyecto - HTTP App
   - [Estilos para la App](https://gist.github.com/Klerith/78bef71dd472bfb3a29a263fbc3cbe58)
+- V152 - Pokemon, componente principal
