@@ -23,14 +23,13 @@ export const getPokemonById = async ( id ) => {
     const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${ id }`);
     const data = await response.json();
     console.log(data);
+    
     const pokemonData = {
         id: data.id,
         name: data.name,
-        image: data.location_area_encounters
+        image: data.sprites.front_default
     }
 
-    console.log(pokemonData);
-
-    return { pokemonData };
+    return pokemonData;
 
 }
