@@ -15,3 +15,4 @@
 - V154 - fetchAPI, peticiones HTTP GET
 - V155 - Simplificar el código de la petición fetch anterior
 - V156 - Mostrar información en pantalla
+- V157 - Listeners de botones
