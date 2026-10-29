@@ -16,3 +16,5 @@
 - V155 - Simplificar el código de la petición fetch anterior
 - V156 - Mostrar información en pantalla
 - V157 - Listeners de botones
+- V158 - Caché - Mojorar experiencia de usuarios  
+  - [Investigar sobre Map()](https://coding-challenges.dev/learn/typescript/map-y-set)
