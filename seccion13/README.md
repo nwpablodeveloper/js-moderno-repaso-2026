@@ -1,3 +1,20 @@
 # Sección 13: CRUD - App - No Framework
 
 - V160 - Introducción a la sección
+- V161 - Temas puntuales de la sección
+  - Operaciones CRUD
+  - Create
+  - Read
+  - Update
+  - Delete
+  - Sin frameworks o librerías externas
+  - Modals
+  - Mappers
+  - Clases
+  - Utilizar conversiones
+  - Código limpio
+  - Comprender las funcionalidades básicas de un Restful API de un backend
+  - Montar un backend de pruebas
+  - Generar y utilizar un store central para nuestro estado de la aplicación
+  - Documentación de funciones
+    - Esta sección aplica todo lo aprendido hasta el momento, que va desde documentación, generación de elementos,  async-await, store, fetch y mucho más.
