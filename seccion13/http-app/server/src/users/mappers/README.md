@@ -1,0 +1,1 @@
+Esta carpeta ```mappers``` es para tomar la infomración que luce de una manera y la transformemos a otra
