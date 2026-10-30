@@ -3,7 +3,7 @@
 
 /**
  * 
- * @param {number} page 
+ * @param {Number} page 
  * @returns
  */
 export const loadUsersByPage = async ( page = 1) => {

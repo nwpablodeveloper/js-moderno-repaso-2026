@@ -22,3 +22,4 @@
   - [npm JSON-Server](https://www.npmjs.com/package/json-server)
 - V163 - Store central de nuestra app
 - V164 - Cargar Usuarios
+- V165 - User Model y problemas realionados
