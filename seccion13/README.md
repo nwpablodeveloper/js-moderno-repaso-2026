@@ -18,3 +18,5 @@
   - Generar y utilizar un store central para nuestro estado de la aplicación
   - Documentación de funciones
     - Esta sección aplica todo lo aprendido hasta el momento, que va desde documentación, generación de elementos,  async-await, store, fetch y mucho más.
+- V162 - Preparación de nuestro Backend
+  - [npm JSON-Server](https://www.npmjs.com/package/json-server)
