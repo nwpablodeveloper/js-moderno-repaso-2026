@@ -23,3 +23,4 @@
 - V163 - Store central de nuestra app
 - V164 - Cargar Usuarios
 - V165 - User Model y problemas realionados
+- V166 - Mappers
