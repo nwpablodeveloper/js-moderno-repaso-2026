@@ -24,3 +24,4 @@
 - V164 - Cargar Usuarios
 - V165 - User Model y problemas realionados
 - V166 - Mappers
+- V167 - Actualizar nuestro Store
