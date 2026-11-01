@@ -2,8 +2,9 @@
 import { renderAddButton } from './presentation/render-add-button/render-add-button';
 import { renderButtons } from './presentation/render-buttons/render-buttons';
 import { renderTable } from './presentation/render-table/render-table';
-import { renderModal } from './presentation/render-modal/render-modal'
+import { renderModal } from './presentation/render-modal/render-modal';
 import usersStore from './stores/users-store';
+import { saveUser } from './use-cases/save-user';
 
 /**
  * 
@@ -18,5 +19,9 @@ export const UserApp = async ( element ) => {
     renderTable( element );
     renderButtons( element );
     renderAddButton( element )
-    renderModal(element);
+    renderModal(element, async (userLike) => {
+        const user = await saveUser( userLike );
+        usersStore.onUserChange( user );
+        renderTable();
+    });
 }

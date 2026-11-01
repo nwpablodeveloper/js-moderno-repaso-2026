@@ -453,6 +453,11 @@
     {
       "first_name": "pablo1",
       "id": "O4tVyeA24BE"
+    },
+    {
+      "isActive": true,
+      "balance": 123.521,
+      "id": "z0lRrnGOla8"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
