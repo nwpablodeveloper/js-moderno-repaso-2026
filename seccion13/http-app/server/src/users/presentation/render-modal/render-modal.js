@@ -14,6 +14,7 @@ export const showModal = () => {
 export const hideModal = () => {
     
     modal.classList.add('hide-modal');
+    form?.reset();
     //TODO reset de formulario
 
 }
@@ -29,7 +30,6 @@ export const renderModal = ( element ) => {
     modal = document.createElement('div');
     modal.innerHTML = html;
     modal.className = 'modal-container hide-modal';
-
     form = modal.querySelector('form');
 
     modal.addEventListener('click', ( event ) => {
@@ -43,8 +43,24 @@ export const renderModal = ( element ) => {
 
     form.addEventListener('submit', (event) => {
         event.preventDefault();
-        console.log(event);
-        console.log('formulario enviado');
+        
+        const formData = new FormData( form );
+        const userLike = {};
+
+        for (const [key, value] of formData) {
+
+            if( key === 'balance') {
+                userLike[key] = +value // Convertimos el numero que viene en string a number
+                continue;
+            }
+
+            if( key === 'isActive' ) {
+                userLike[key] = (value === 'on') ? true : false;
+            }
+            
+
+        }
+
         hideModal();
     })
 

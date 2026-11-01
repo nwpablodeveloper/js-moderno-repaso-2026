@@ -31,3 +31,4 @@
 - V171 - Botón flotante
 - V172 - Crear modal manualmente
 - V173 - Comportamiento de modal
+- V174 - Tomar la data del formulario
