@@ -30,3 +30,4 @@
 - V170 - Funcionalidad de los botones
 - V171 - Botón flotante
 - V172 - Crear modal manualmente
+- V173 - Comportamiento de modal
