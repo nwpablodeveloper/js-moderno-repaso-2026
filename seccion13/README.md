@@ -27,3 +27,4 @@
 - V167 - Actualizar nuestro Store
 - V168 - Crear una tabla HTML con los usuario
 - V169 - Botones Next, Prev y página actual
+- V170 - Funcionalidad de los botones
