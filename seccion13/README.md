@@ -25,3 +25,4 @@
 - V165 - User Model y problemas realionados
 - V166 - Mappers
 - V167 - Actualizar nuestro Store
+- V168 - Crear una tabla HTML con los usuario

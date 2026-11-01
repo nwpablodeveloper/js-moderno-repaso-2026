@@ -1,3 +1,5 @@
+// @ts-nocheck
+import { renderTable } from './presentation/render-table/render-table';
 import usersStore from './stores/users-store';
 
 /**
@@ -9,5 +11,6 @@ export const UserApp = async ( elemnt ) => {
     elemnt.innerHTML = `Loading...`;
     await usersStore.loadNextPage();
 
-    console.log(usersStore.getUsers());
+    elemnt.innerHTML = '';
+    renderTable( elemnt );
 }
