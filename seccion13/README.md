@@ -32,3 +32,4 @@
 - V172 - Crear modal manualmente
 - V173 - Comportamiento de modal
 - V174 - Tomar la data del formulario
+- V175 - Caso de uso, crear usuario
