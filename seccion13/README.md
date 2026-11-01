@@ -29,3 +29,4 @@
 - V169 - Botones Next, Prev y página actual
 - V170 - Funcionalidad de los botones
 - V171 - Botón flotante
+- V172 - Crear modal manualmente
