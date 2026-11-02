@@ -26,7 +26,7 @@ export const hideModal = () => {
  */
 export const renderModal = ( element, saveUserCallback ) => {
 
-    if( modal ) returna;
+    if( modal ) return;
 
     modal = document.createElement('div');
     modal.innerHTML = html;
@@ -34,24 +34,24 @@ export const renderModal = ( element, saveUserCallback ) => {
     form = modal.querySelector('form');
 
     modal.addEventListener('click', ( event ) => {
-        
+        //* Si ahces click en la sombra negra del modal, el mismo se cierra
         if(event.target.className != 'modal-container') return;
-
         hideModal();
-        
-
     });
 
     form.addEventListener('submit', async (event) => {
+
+        //* Anula enviar el formulario via "POST"
         event.preventDefault();
         
         const formData = new FormData( form );
-        const userLike = {};
+        const userLike = {}; 
 
         for (const [key, value] of formData) {
 
             if( key === 'balance') {
-                userLike[key] = +value // Convertimos el numero que viene en string a number
+                //! Convertimos el numero que viene en string a number
+                userLike[key] = +value;
                 continue;
             }
 
@@ -59,6 +59,7 @@ export const renderModal = ( element, saveUserCallback ) => {
                 userLike[key] = (value === 'on') ? true : false;
             }
             
+            userLike[key] = value;
 
         }
 

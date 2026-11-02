@@ -34,3 +34,4 @@
 - V174 - Tomar la data del formulario
 - V175 - Caso de uso, crear usuario
 - V176 - Crear Usuario
+- V177 - Mapper User Modal To Localhost (enviar la data como lo requiere el server)

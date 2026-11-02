@@ -1,4 +1,5 @@
 // @ts-nocheck
+import { userModelToLocalHost } from '../mappers/user-to-locahost.mapper';
 import { User } from '../models/user'
 
 /**
@@ -6,18 +7,20 @@ import { User } from '../models/user'
  * @param {Like<User>} userLike 
  */
 export const saveUser = async ( userLike ) => {
+
     
     const user = new User( userLike );
     
-    //TODO poner un mapper para enviar la data como la quiere el server
+    if( !user.firstName || !user.lastName )
+        throw 'Primer nombre y apellido es requerido';
+
+    const userToServer = userModelToLocalHost( user );
 
     if( user.id ){
         throw new Error('implementar la actualización del usuario');
     }
-
-    const updateUser = await createUser( user );
-
-    console.log(updateUser);
+    
+    const updateUser = await createUser( userToServer );
 
     return updateUser;
 }

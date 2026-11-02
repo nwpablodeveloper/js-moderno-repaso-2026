@@ -451,13 +451,18 @@
       "gender": "male"
     },
     {
-      "first_name": "pablo1",
-      "id": "O4tVyeA24BE"
+      "isActive": "on",
+      "balance": 123.521,
+      "first_name": "pablo",
+      "last_name": "veiga",
+      "id": "MoUoM6OgkWM"
     },
     {
-      "isActive": true,
+      "isActive": "on",
       "balance": 123.521,
-      "id": "z0lRrnGOla8"
+      "first_name": "pablo",
+      "last_name": "veiga",
+      "id": "pg2jNMgTWzk"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
