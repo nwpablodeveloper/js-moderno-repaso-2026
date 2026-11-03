@@ -1,13 +1,24 @@
 // @ts-nocheck
 import html from './render-modal.html?raw'
 import './render-modal.css';
+import { User } from '../../models/user'
+import { getUserById } from '../../use-cases/get-user-by-id';
 
-let modal, form; 
+let modal, form, loadUser; 
 
-// TODO cargar usuario por ID
-export const showModal = () => {
+/**
+ * 
+ * @param {String|Number} id 
+ */
+export const showModal = async ( id ) => {
 
     modal?.classList.remove('hide-modal');
+
+    if ( !id ) return;
+
+    const user = await getUserById(id);
+
+    
 
 }
 
@@ -16,6 +27,14 @@ export const hideModal = () => {
     modal.classList.add('hide-modal');
     form?.reset();
     //TODO reset de formulario
+
+}
+
+/**
+ * 
+ * @param {User} user 
+ */
+const setFormValues = ( user ) => {
 
 }
 

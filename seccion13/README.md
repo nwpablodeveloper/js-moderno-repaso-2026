@@ -35,3 +35,4 @@
 - V175 - Caso de uso, crear usuario
 - V176 - Crear Usuario
 - V177 - Mapper User Modal To Localhost (enviar la data como lo requiere el server)
+- V178 - Cargar información del usuario en el modal
