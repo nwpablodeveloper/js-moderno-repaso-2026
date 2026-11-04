@@ -4,7 +4,8 @@ import './render-modal.css';
 import { User } from '../../models/user'
 import { getUserById } from '../../use-cases/get-user-by-id';
 
-let modal, form, loadUser; 
+let modal, form;
+let loadUser = {}; 
 
 /**
  * 
@@ -13,12 +14,13 @@ let modal, form, loadUser;
 export const showModal = async ( id ) => {
 
     modal?.classList.remove('hide-modal');
+    loadUser = {};
 
     if ( !id ) return;
-
-    const user = await getUserById(id);
-
     
+    const user = await getUserById(id);
+    
+    setFormValues(user);
 
 }
 
@@ -35,6 +37,12 @@ export const hideModal = () => {
  * @param {User} user 
  */
 const setFormValues = ( user ) => {
+
+    form.querySelector('[name="firstName"]').value = user.firstName;
+    form.querySelector('[name="lastName"]').value = user.lastName;
+    form.querySelector('[name="balance"]').value = user.balance;
+    form.querySelector('[name="isActive"]').checked = user.isActive;
+    loadUser = user;
 
 }
 
@@ -64,7 +72,7 @@ export const renderModal = ( element, saveUserCallback ) => {
         event.preventDefault();
         
         const formData = new FormData( form );
-        const userLike = {}; 
+        const userLike = { ...loadUser }; 
 
         for (const [key, value] of formData) {
 

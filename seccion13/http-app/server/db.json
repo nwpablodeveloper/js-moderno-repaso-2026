@@ -463,6 +463,20 @@
       "first_name": "pablo",
       "last_name": "veiga",
       "id": "pg2jNMgTWzk"
+    },
+    {
+      "isActive": "on",
+      "balance": 343434,
+      "first_name": "asdf",
+      "last_name": "asdf",
+      "id": "1Jhzhsx3yJ8"
+    },
+    {
+      "isActive": "on",
+      "balance": 8974897987897,
+      "first_name": "qwer",
+      "last_name": "3434",
+      "id": "nvr0l8hmNQM"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
