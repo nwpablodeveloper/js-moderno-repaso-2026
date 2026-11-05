@@ -36,3 +36,4 @@
 - V176 - Crear Usuario
 - V177 - Mapper User Modal To Localhost (enviar la data como lo requiere el server)
 - V178 - Cargar información del usuario en el modal
+- V179 - Actualizar usuario

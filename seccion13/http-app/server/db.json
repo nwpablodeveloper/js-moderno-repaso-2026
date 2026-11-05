@@ -2,11 +2,11 @@
   "users": [
     {
       "id": "1",
-      "isActive": false,
-      "balance": 1397.32,
+      "isActive": "on",
+      "balance": 0,
       "avatar": "http://placehold.it/32x32",
-      "first_name": "Ryan",
-      "last_name": "Kent",
+      "first_name": "Ry",
+      "last_name": "kk",
       "gender": "male"
     },
     {
@@ -477,6 +477,13 @@
       "first_name": "qwer",
       "last_name": "3434",
       "id": "nvr0l8hmNQM"
+    },
+    {
+      "isActive": "on",
+      "balance": 123,
+      "first_name": "pablo222",
+      "last_name": "veiga3",
+      "id": "oV7Za1cx6_E"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
