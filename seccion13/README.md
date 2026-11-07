@@ -39,3 +39,4 @@
 - V179 - Actualizar usuario
 - V180 - Eliminar usuario
 - V181 - Resumen de la sección
+- V182 - [Código fuente de la sección](https://github.com/Klerith/js-moderno-http-app/tree/fin-seccion-13)
