@@ -38,3 +38,4 @@
 - V178 - Cargar información del usuario en el modal
 - V179 - Actualizar usuario
 - V180 - Eliminar usuario
+- V181 - Resumen de la sección
