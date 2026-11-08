@@ -6,3 +6,5 @@
   - Romper la referencia de los obejtos que estan dentro de un Array.
 - V186 - Array With
   - Romper la referencia de los obejtos que estan dentro de un Array
+- V187 - Método "to"
+- [V188 - Código fuente de la sección](https://github.com/Klerith/js-moderno-esnext)

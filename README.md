@@ -133,3 +133,4 @@
   - Generar y utilizar un store central para nuestro estado de la aplicación
   - Documentación de funciones
 - [Sección 14 - 00:32 - ES Next](seccion14/)
+  - Romper la referencia de los objetos
