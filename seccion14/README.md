@@ -2,3 +2,5 @@
 
 - V183 - Introducción a la sección
 - V184 - Inicio de proyecto EsNext
+- V185 - Estructura Clone
+  - Copiar una objeto que tiene objetos rompiendo sus referencias.
