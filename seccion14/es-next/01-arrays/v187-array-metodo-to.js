@@ -14,7 +14,8 @@ console.table(heroesCopy0);
 const heroes = ['Batman', 'Superman', 'Flash', 'Aquaman'];
 // const heroesCopy = heroes;
 
-const heroesCopy = heroes.toSorted();
+//*
+const heroesCopy = heroes.toSorted(); 
 
 console.table(heroes);
 console.table(heroesCopy); 
